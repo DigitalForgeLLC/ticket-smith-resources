@@ -1,6 +1,6 @@
 # Instructions
 
-1. **Create the description for a Jira ticket** using the template structure as explicitly defined
+1. Follow these instructions
 2. **Follow the template's sections and formatting** exactly
 3. **Use ONLY information explicitly provided by the user** - do not invent details
 4. **For missing information**, use phrases like "To be determined", "Not specified", or "Details needed"
