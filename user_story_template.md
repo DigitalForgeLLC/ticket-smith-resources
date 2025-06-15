@@ -1,4 +1,4 @@
-# Usage Instructions for Claude
+# Instructions
 
 When provided with a brief feature description, expand it using this template by:
 
@@ -19,12 +19,12 @@ When provided with a brief feature description, expand it using this template by
 - **Missing Info:** Clearly mark any sections where information was not provided
 
 ## Formatting Requirements:
-- Include divider lines (---) between each section
-- Make section titles bold and underlined: **<u>Section Name</u>**
-- Use bullet points for clarity and scannability
-- Bold group headings within Acceptance Criteria when needed
-- Use assertive language ("will" instead of "should") for criteria
-- Keep font size consistent throughout
+- **Include divider lines (---) between each section**
+- **Bold section headers with colons:** **SECTION NAME:**
+- **Text starts on line below each header**
+- **Use bullet points** within sections for multiple related items
+- **Maintain consistent formatting** throughout the ticket
+- **Include proper markdown links** for URLs and resources
 
 ## Conservative Filling Guidelines:
 - If user provides a one-line description, expand minimally
@@ -54,7 +54,7 @@ When provided with a brief feature description, expand it using this template by
 
 # Template
 
-**<u>Story</u>**
+**Story**
 * [User story in standard format only if all parts provided by user]
 * [If incomplete, use what's given and mark missing parts as "To be determined"]
 * [Do not create user types or benefits not mentioned]
@@ -62,7 +62,7 @@ When provided with a brief feature description, expand it using this template by
 
 ---
 
-**<u>Context</u>**
+**Context**
 * [Context only if provided by user]
 * [Business problem only if explicitly stated]
 * [Do not add market analysis or strategic alignment]
@@ -70,19 +70,16 @@ When provided with a brief feature description, expand it using this template by
 
 ---
 
-**<u>Acceptance Criteria</u>**
+**Acceptance Criteria**
 * [Acceptance criteria exactly as specified by user]
 * [Do not create criteria not mentioned]
 * [Use "To be determined" if none provided]
-* [Do not group or reorganize unless user specifies]
-* [Keep user's exact wording]
 
 ---
 
 **<u>Testing</u>**
 * [Testing scenarios only if provided by user]
 * [Do not create test cases not mentioned]
-* [Mark as "To be determined" if not specified]
 * [Do not add edge cases or considerations]
 * [Use exact scenarios given by user]
 

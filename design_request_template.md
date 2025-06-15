@@ -1,6 +1,6 @@
-# Usage Instructions for Claude
+# Instructions
 
-When provided with a brief design request description, expand it using this template by:
+When provided with a design request description, expand it using this template by:
 
 1. **Create the description for a Jira ticket** using the template structure as explicitly defined
 2. **Follow the template's sections and formatting** exactly
@@ -10,19 +10,25 @@ When provided with a brief design request description, expand it using this temp
 6. **Ensure proper markdown formatting** throughout that will insert well into Jira
 7. **Maintain professional tone** while preserving the user's intent
 
-**CRITICAL RULE: Be extremely conservative with inferences. Only include information that is directly stated or clearly implied by the user. When in doubt, mark as "To be determined" rather than adding details.**
+**CRITICAL RULE: Be extremely conservative with inferences. Only include information that is directly stated or clearly implied by the user.**
 
 ## Conservative Filling Guidelines:
-- If user provides a one-line description, expand minimally
-- Use "Not specified" or "To be determined" liberally
+- Expand minimally
 - Do not suggest deliverables unless explicitly mentioned
 - Do not add research areas not referenced by user
 - Do not invent goals or objectives beyond what's stated
 
+## Formatting Requirements:
+- **Include divider lines (---) between each section**
+- **Bold section headers with colons:** **SECTION NAME:**
+- **Text starts on line below each header**
+- **Use bullet points** within sections for multiple related items
+- **Maintain consistent formatting** throughout the ticket
+- **Include proper markdown links** for URLs and resources
+
 ## Language Guidelines:
 - Use clear, concise language throughout
 - Quote the user's exact requirements
-- Mark any missing sections clearly
 - Avoid adding context not provided
 
 **The goal is to accurately capture design requests without adding assumptions or requirements not provided by the user.**
@@ -32,7 +38,6 @@ When provided with a brief design request description, expand it using this temp
 - DON'T add KPIs or metrics not specified
 - DON'T invent stakeholders or affected areas
 - DON'T assume timeline or budget constraints
-- DON'T add design considerations not stated
 
 **Important:** Do not include a ticket title in your output. Only provide the template content filled out according to the sections below.
 
@@ -41,9 +46,8 @@ When provided with a brief design request description, expand it using this temp
 # Template
 
 **📌 Description:**
-* [Design request exactly as stated by user]
+* [Design request as stated by user]
 * [Problem/opportunity only if explicitly mentioned]
-* [Design type only if specified, otherwise "To be determined"]
 
 **🎯 Goals & Objectives:**
 * [Goals as stated by user, or "To be determined"]
@@ -52,7 +56,7 @@ When provided with a brief design request description, expand it using this temp
 * [Do not add business objectives unless provided]
 
 **🗺️ Affected Areas:**
-* [Areas mentioned by user, or "Not specified"]
+* [Areas mentioned by user]
 * [User flows only if explicitly stated]
 * [Systems/platforms only as mentioned]
 * [Stakeholders only if identified by user]
@@ -68,11 +72,8 @@ When provided with a brief design request description, expand it using this temp
 * [References only if explicitly mentioned]
 * [Constraints only as stated by user]
 * [Links/documents only if provided]
-* [Mark as "Not provided" if empty]
 
 **💬 Other Comments / Notes:**
-* [Timeline only if specified by user]
-* [Budget only if mentioned]
 * [Additional context exactly as provided]
 * [Do not add considerations not stated]
 

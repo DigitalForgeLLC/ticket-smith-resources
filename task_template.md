@@ -1,4 +1,4 @@
-# Usage Instructions for Claude
+# Instructions
 
 When provided with a brief task description, expand it using this template by:
 
@@ -19,11 +19,12 @@ When provided with a brief task description, expand it using this template by:
 - **Missing Info:** Clearly mark any sections where information was not provided
 
 ## Formatting Requirements:
-- Include divider lines (---) between each section
-- Make section titles bold and underlined: **<u>Section Name</u>**
-- Keep font size consistent throughout
-- Use bullet points for clarity and scannability
-- Be solution-oriented with actionable insights
+- **Include divider lines (---) between each section**
+- **Bold section headers with colons:** **SECTION NAME:**
+- **Text starts on line below each header**
+- **Use bullet points** within sections for multiple related items
+- **Maintain consistent formatting** throughout the ticket
+- **Include proper markdown links** for URLs and resources
 
 ## Conservative Filling Guidelines:
 - If user provides a one-line description, expand minimally
@@ -53,27 +54,24 @@ When provided with a brief task description, expand it using this template by:
 
 # Template
 
-**<u>Why</u>**
+**Why**
 * [Reason for task only if provided by user]
 * [Business value only if explicitly stated]
-* [Priority/timeframe only if specified]
-* [Impact only as described by user, otherwise "Not specified"]
+* [Impact only as described by user]
 
 ---
 
-**<u>How</u>**
+**How**
 * [Steps exactly as described by user, or "To be determined"]
 * [Technical approach only if specified]
 * [Dependencies only if mentioned by user]
 * [Resources/tools only as stated]
-* [Timeline only if provided, otherwise "Not specified"]
 
 ---
 
-**<u>Acceptance Criteria</u>**
+**Acceptance Criteria**
 * [Outputs only as specified by user]
 * [Definition of done only if provided]
 * [Testing requirements only if mentioned]
 * [Documentation needs only if stated]
-* [Mark as "To be determined" for any missing criteria]
 

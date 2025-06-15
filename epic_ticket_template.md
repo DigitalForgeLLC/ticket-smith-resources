@@ -1,8 +1,6 @@
-# Epic Ticket Template
+# Instructions
 
-## Usage Instructions for Claude
-
-When provided with a brief epic description, expand it using this template by:
+When provided with an epic description, expand it using this template by:
 
 1. **Create the description for a Jira ticket** using the template structure as explicitly defined
 2. **Follow the template's sections and formatting** exactly
@@ -12,30 +10,27 @@ When provided with a brief epic description, expand it using this template by:
 6. **Ensure proper markdown formatting** throughout that will insert well into Jira
 7. **Maintain professional tone** while preserving the user's intent
 
-**CRITICAL RULE: Be extremely conservative with inferences. Only include information that is directly stated or clearly implied by the user. When in doubt, mark as "To be determined" rather than adding details.**
+**CRITICAL RULE: Be extremely conservative with inferences. Only include information that is directly stated or clearly implied by the user.**
 
-### Core Principles:
+## Core Principles:
 - **Accuracy First:** Only document what the user explicitly states
 - **Clear Documentation:** Present the epic exactly as described
 - **No Assumptions:** Avoid inferring strategic value or scope not mentioned
-- **Missing Info:** Clearly mark any sections where information was not provided
 
-### Formatting Requirements:
+## Formatting Requirements:
+- **Include divider lines (---) between each section**
 - **Bold section headers with colons:** **SECTION NAME:**
 - **Text starts on line below each header**
 - **Use bullet points** within sections for multiple related items
-- **Complete all sections** even if information is limited or requires follow-up
 - **Maintain consistent formatting** throughout the ticket
 - **Include proper markdown links** for URLs and resources
 
-### Conservative Filling Guidelines:
-- If user provides a one-line description, expand minimally
-- Use "Not specified" or "To be determined" liberally
+## Conservative Filling Guidelines:
+- Expound minimally
 - Do not add strategic context not provided
 - Do not infer scope boundaries not stated
-- Do not create resources or documentation links
 
-### Language Guidelines:
+## Language Guidelines:
 - Use the user's exact language where possible
 - Quote objectives and outcomes as stated
 - Mark gaps clearly with "To be determined"
@@ -65,14 +60,13 @@ The goal is to accurately capture epic requirements without adding strategic con
 
 ---
 
-## Template Structure
+# Template Structure
 
 **OVERVIEW:**
-[Epic description exactly as provided by user]
+[Epic description as provided by user]
 [Business objectives only if explicitly stated]
 [Scope only as defined by user, otherwise "To be determined"]
 [Deliverables only if specified]
-[Timeline only if provided, otherwise "Not specified"]
 [Success criteria only as stated by user]
 
 **RESOURCES:**
@@ -80,4 +74,3 @@ The goal is to accurately capture epic requirements without adding strategic con
 [Do not create or suggest documentation]
 [Links only as explicitly given]
 [Mark as "Not provided" if no resources mentioned]
-[Do not add contacts or references not specified]
