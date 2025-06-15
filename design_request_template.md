@@ -35,6 +35,7 @@
 - DON'T add KPIs or metrics not specified
 - DON'T invent stakeholders or affected areas
 - DON'T assume timeline or budget constraints
+- DON'T include any commentary on the ticket or request itself in your response
 
 **Important:** Do not include a ticket title in your output. Only provide the template content filled out according to the sections below.
 

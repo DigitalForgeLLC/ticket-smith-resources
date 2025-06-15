@@ -44,6 +44,7 @@
 - DON'T invent testing scenarios
 - DON'T assume business value or context
 - DON'T expand the story beyond user input
+- DON'T include any commentary on the ticket or request itself in your response
 
 **Important:** Do not include a ticket title in your output. Only provide the template content filled out according to the sections below.
 

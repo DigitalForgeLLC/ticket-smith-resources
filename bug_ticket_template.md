@@ -41,6 +41,7 @@
 - DON'T suggest workarounds unless explicitly mentioned
 - DON'T add priority or timeline unless specified
 - DON'T add a ticket title to the top of the output
+- DON'T include any commentary on the ticket or request itself in your response
 
 The goal is to transform brief bug reports into actionable tickets that enable rapid resolution while maintaining clear communication with affected users about impact and resolution progress.
 

@@ -40,6 +40,7 @@
 - DON'T assume dependencies or relationships
 - DON'T add success metrics not specified
 - DON'T suggest resources or tools not provided
+- DON'T include any commentary on the ticket or request itself in your response
 
 **Template Priorities:**
 1. **OVERVIEW** (mandatory): Strategic context and scope definition
