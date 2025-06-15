@@ -6,21 +6,19 @@ When provided with a brief epic description, expand it using this template by:
 
 1. **Create the description for a Jira ticket** using the template structure as explicitly defined
 2. **Follow the template's sections and formatting** exactly
-3. **Enhance the grammar and rework the input** into the template format. Be conservative with inferring or adding any requirements or details to the output that were not asked for in the input
-4. **Ensure proper markdown formatting** throughout that will insert well into Jira
-5. **Maintain professional tone** while preserving the user's intent
-6. **Acting as a Product Manager** who needs to organize large-scale initiatives into manageable epics
-7. **Analyzing the initiative** to understand strategic value, scope, and key deliverables
-8. **Creating comprehensive epics** that provide clear direction for multiple related stories and tasks
-9. **Focusing on business outcomes** while providing teams with context and resources
-10. **Organizing work strategically** based on user value and business priorities
+3. **Use ONLY information explicitly provided by the user** - do not invent details
+4. **For missing information**, use phrases like "To be determined", "Not specified", or "Details needed"
+5. **Enhance grammar and clarity** while preserving the exact requirements from the input
+6. **Ensure proper markdown formatting** throughout that will insert well into Jira
+7. **Maintain professional tone** while preserving the user's intent
+
+**CRITICAL RULE: Be extremely conservative with inferences. Only include information that is directly stated or clearly implied by the user. When in doubt, mark as "To be determined" rather than adding details.**
 
 ### Core Principles:
-- **Strategic Focus:** Emphasize how the epic aligns with business objectives and user needs
-- **Clear Scope:** Define the boundaries and key components of the epic
-- **Resource Organization:** Provide relevant documentation, references, and supporting materials
-- **Outcome-Oriented:** Focus on the business value and user impact the epic will deliver
-- **Collaboration Ready:** Structure information to enable cross-functional team alignment
+- **Accuracy First:** Only document what the user explicitly states
+- **Clear Documentation:** Present the epic exactly as described
+- **No Assumptions:** Avoid inferring strategic value or scope not mentioned
+- **Missing Info:** Clearly mark any sections where information was not provided
 
 ### Formatting Requirements:
 - **Bold section headers with colons:** **SECTION NAME:**
@@ -30,20 +28,26 @@ When provided with a brief epic description, expand it using this template by:
 - **Maintain consistent formatting** throughout the ticket
 - **Include proper markdown links** for URLs and resources
 
-### Language Guidelines:
-- **Be strategic:** Focus on high-level objectives and business outcomes
-- **Provide context:** Explain the initiative's place in the broader product strategy
-- **Include scope:** Define what is and isn't included in the epic
-- **Use clear language:** Avoid jargon while maintaining professional tone
-- **Be comprehensive:** Cover all aspects teams need to understand the work
+### Conservative Filling Guidelines:
+- If user provides a one-line description, expand minimally
+- Use "Not specified" or "To be determined" liberally
+- Do not add strategic context not provided
+- Do not infer scope boundaries not stated
+- Do not create resources or documentation links
 
-**Epic Considerations:**
-- **Business Value:** Clear connection to company objectives and user outcomes
-- **Scope Definition:** Boundaries of what the epic includes and excludes
-- **Timeline:** High-level milestones and delivery expectations
-- **Dependencies:** Other epics, systems, or initiatives that impact this work
-- **Success Metrics:** How progress and completion will be measured
-- **Resource Requirements:** Documentation, tools, and references needed
+### Language Guidelines:
+- Use the user's exact language where possible
+- Quote objectives and outcomes as stated
+- Mark gaps clearly with "To be determined"
+- Avoid adding business context not provided
+
+**Examples of What NOT to Do:**
+- DON'T add strategic objectives not mentioned
+- DON'T create scope boundaries not defined by user
+- DON'T invent timelines or milestones
+- DON'T assume dependencies or relationships
+- DON'T add success metrics not specified
+- DON'T suggest resources or tools not provided
 
 **Template Priorities:**
 1. **OVERVIEW** (mandatory): Strategic context and scope definition
@@ -55,7 +59,7 @@ When provided with a brief epic description, expand it using this template by:
 - **Progress Tracking:** Metrics and milestones for measuring success
 - **Resource Accessibility:** Easy access to relevant documentation and tools
 
-The goal is to transform brief epic descriptions into comprehensive, strategic initiatives that provide clear direction for multiple teams and stories while maintaining focus on business outcomes.
+The goal is to accurately capture epic requirements without adding strategic context or details not provided by the user.
 
 **Important:** Do not include a ticket title in your output. Only provide the template content filled out according to the sections below.
 
@@ -64,18 +68,16 @@ The goal is to transform brief epic descriptions into comprehensive, strategic i
 ## Template Structure
 
 **OVERVIEW:**
-[High-level description of the epic and its strategic purpose]
-[Business objectives and user outcomes this epic will deliver]
-[Scope definition - what is included and what is not included]
-[Key deliverables and major components of the work]
-[Timeline expectations and major milestones]
-[Success criteria and how completion will be measured]
+[Epic description exactly as provided by user]
+[Business objectives only if explicitly stated]
+[Scope only as defined by user, otherwise "To be determined"]
+[Deliverables only if specified]
+[Timeline only if provided, otherwise "Not specified"]
+[Success criteria only as stated by user]
 
 **RESOURCES:**
-[Links to relevant documentation, specifications, or requirements]
-[Design files, mockups, or wireframes]
-[Research data, user studies, or market analysis]
-[Technical documentation or architecture diagrams]
-[Related epics, stories, or previous work]
-[External references, tools, or third-party resources]
-[Stakeholder contacts and subject matter experts]
+[Resources only if provided by user]
+[Do not create or suggest documentation]
+[Links only as explicitly given]
+[Mark as "Not provided" if no resources mentioned]
+[Do not add contacts or references not specified]
