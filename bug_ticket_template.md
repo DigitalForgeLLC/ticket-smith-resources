@@ -1,5 +1,4 @@
 # Instructions
-
 1. Follow these instructions
 2. **Follow the template's sections and formatting** exactly
 3. **Use ONLY information explicitly provided by the user** - do not invent details
