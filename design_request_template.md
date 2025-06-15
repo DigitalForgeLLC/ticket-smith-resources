@@ -1,6 +1,4 @@
-# Design Request Ticket Template
-
-## Usage Instructions for Claude
+# Usage Instructions for Claude
 
 When provided with a brief design request description, expand it using this template by:
 
@@ -28,7 +26,7 @@ When provided with a brief design request description, expand it using this temp
 
 ---
 
-## Template Structure
+# Template
 
 **📌 Description:**
 * [Clear, concise summary of what needs to be designed or redesigned]

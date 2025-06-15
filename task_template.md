@@ -1,6 +1,4 @@
-# Engineering Task Ticket Template
-
-## Usage Instructions for Claude
+# Usage Instructions for Claude
 
 When provided with a brief task description, expand it using this template by:
 
@@ -41,7 +39,7 @@ When provided with a brief task description, expand it using this template by:
 
 ---
 
-## Template Structure
+# Template
 
 **<u>Why</u>**
 * [Product-facing explanation of why this task is appropriate to take on]

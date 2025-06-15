@@ -1,6 +1,4 @@
-# Bug Ticket Template
-
-## Usage Instructions for Claude
+# Usage Instructions for Claude
 
 When provided with a brief bug description, expand it using this template by:
 
@@ -72,7 +70,7 @@ The goal is to transform brief bug reports into comprehensive, actionable ticket
 
 ---
 
-## Template Structure
+# Template Structure
 
 **ENVIRONMENT:**
 [Specific environment where the issue occurs: Production, Staging, Development]

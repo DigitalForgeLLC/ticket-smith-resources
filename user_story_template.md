@@ -1,6 +1,4 @@
-# User Story Ticket Template
-
-## Usage Instructions for Claude
+# Usage Instructions for Claude
 
 When provided with a brief feature description, expand it using this template by:
 
@@ -43,7 +41,7 @@ When provided with a brief feature description, expand it using this template by
 
 ---
 
-## Template Structure
+# Template
 
 **<u>Story</u>**
 * [Begin with: "As a [user type], I want/need [feature], so that [reason/benefit]."]
