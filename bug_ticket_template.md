@@ -49,15 +49,6 @@ When provided with a brief bug description, expand it using this template by:
 - **Use Profit Max terminology:** Reference modules, calculations, and features consistently
 - **Be objective:** Focus on observable facts rather than subjective assessments
 
-**Template Priorities:**
-1. **ISSUE** (mandatory): Clear problem statement
-2. **STEPS TO RECREATE**: Reliable reproduction path
-3. **EXPECTED BEHAVIOR**: What should happen instead
-4. **IMPACTED AREAS AND USERS**: Scope and business impact
-5. **ENVIRONMENT**: Technical context for investigation
-6. **WORKAROUNDS**: User mitigation options
-7. **Support/Dev NOTES**: Team-specific information
-
 **Customer Communication Considerations:**
 - **Impact Assessment:** How the bug affects profit analysis capabilities
 - **Timeline Expectations:** Resolution priority and estimated timeframes

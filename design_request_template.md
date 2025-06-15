@@ -14,7 +14,7 @@ When provided with a brief design request description, expand it using this temp
 10. **Including relevant research areas** that would benefit the project
 11. **Noting any clarifying questions** in the comments section if the original description lacks key details
 
-### Language Guidelines:
+## Language Guidelines:
 - Use clear, concise language throughout
 - Plain English is preferred over flowery or elaborate phrasing
 - Be direct and specific rather than verbose
