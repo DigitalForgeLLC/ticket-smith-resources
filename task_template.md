@@ -45,6 +45,7 @@
 - DON'T create timeline estimates not given
 - DON'T add acceptance criteria beyond what's stated
 - DON'T include any commentary on the ticket or request itself in your response
+- DON'T include any sections in the output that are not explicitly included in this template, unles explictly requested in the user input
 
 **Important:** Do not include a ticket title in your output. Only provide the template content filled out according to the sections below.
 

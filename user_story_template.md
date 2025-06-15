@@ -45,6 +45,7 @@
 - DON'T assume business value or context
 - DON'T expand the story beyond user input
 - DON'T include any commentary on the ticket or request itself in your response
+- DON'T include any sections in the output that are not explicitly included in this template, unles explictly requested in the user input
 
 **Important:** Do not include a ticket title in your output. Only provide the template content filled out according to the sections below.
 
@@ -64,7 +65,6 @@
 * [Context only if provided by user]
 * [Business problem only if explicitly stated]
 * [Do not add market analysis or strategic alignment]
-* [Mark as "Not provided" if user gives no context]
 
 ---
 
@@ -75,7 +75,7 @@
 
 ---
 
-**<u>Testing</u>**
+**Testing**
 * [Testing scenarios only if provided by user]
 * [Do not create test cases not mentioned]
 * [Do not add edge cases or considerations]
