@@ -1,59 +1,41 @@
 # Instructions
-1. Follow these instructions
-2. **Follow the template's sections and formatting** exactly
-3. **Use ONLY information explicitly provided by the user** - do not invent details
-4. **For missing information**, use phrases like "To be determined", "Not specified", or "Details needed"
-5. **Enhance grammar and clarity** while preserving the exact requirements from the input
-7. **Maintain professional tone** while preserving the user's intent
 
-**CRITICAL RULE: Be extremely conservative with inferences. Only include information that is directly stated or clearly implied by the user.**
+## Primary Rules
+1. **Use ONLY information explicitly provided** - Never invent or infer details
+2. **Follow template structure exactly** - Include all sections in order
+3. **Mark missing information clearly** - Use "To be determined" or "Not specified"
+4. **Preserve user's intent** - Enhance grammar while keeping original meaning
 
-## Core Principles:
-- **Accuracy First:** Only document what the user explicitly states
-- **Clear Documentation:** Present the epic exactly as described
-- **No Assumptions:** Avoid inferring strategic value or scope not mentioned
+## Formatting Standards
+- **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
+- **Section dividers:** Use --- between sections
+- **Content placement:** Start on line below header
+- **Lists:** Use bullet points for multiple items
+- **Consistency:** Maintain uniform formatting throughout
 
-## Formatting Requirements:
-- **Include divider lines (---) between each section**
-- **Bold section headers with colons:** **SECTION NAME:**
-- **Text starts on line below each header**
-- **Use bullet points** within sections for multiple related items
-- **Maintain consistent formatting** throughout the ticket
+## Content Guidelines
+- **Be conservative:** When in doubt, mark as "To be determined"
+- **Use exact language:** Quote user's words where possible
+- **Stay factual:** Only include explicitly stated information
+- **Group logically:** Organize related items together
+- **Prioritize clarity:** Use clear, actionable language
 
-## Conservative Filling Guidelines:
-- Expound minimally
-- Do not add strategic context not provided
-- Do not infer scope boundaries not stated
+## Epic Specific Guidelines
+- Focus on strategic context only if provided
+- Document scope boundaries as stated
+- Include resources and links exactly as given
+- Maintain high-level perspective
 
-## Language Guidelines:
-- Use the user's exact language where possible
-- Quote objectives and outcomes as stated
-- Mark gaps clearly with "To be determined"
-- Avoid adding business context not provided
+## Prohibited Actions
+- Creating strategic objectives or business value
+- Inferring scope, timelines, or milestones
+- Adding dependencies or relationships
+- Assuming success metrics or KPIs
+- Including commentary about the request
+- Adding sections not in the template
+- Including ticket titles in output
 
-**Examples of What NOT to Do:**
-- DON'T add strategic objectives not mentioned
-- DON'T create scope boundaries not defined by user
-- DON'T invent timelines or milestones
-- DON'T assume dependencies or relationships
-- DON'T add success metrics not specified
-- DON'T suggest resources or tools not provided
-- DON'T include any commentary on the ticket or request itself in your response
-- DON'T include any sections in the output that are not explicitly included in this template, unles explictly requested in the user input
-
-**Template Priorities:**
-1. **OVERVIEW** (mandatory): Strategic context and scope definition
-2. **RESOURCES**: Supporting materials and references
-
-**Stakeholder Communication Considerations:**
-- **Strategic Alignment:** How the epic supports broader business goals
-- **Cross-team Coordination:** Dependencies and collaboration requirements
-- **Progress Tracking:** Metrics and milestones for measuring success
-- **Resource Accessibility:** Easy access to relevant documentation and tools
-
-The goal is to accurately capture epic requirements without adding strategic context or details not provided by the user.
-
-**Important:** Do not include a ticket title in your output. Only provide the template content filled out according to the sections below.
+**Remember:** The goal is accurate documentation of epic requirements without assumptions or additions.
 
 ---
 
