@@ -67,6 +67,8 @@
 ---
 
 **Acceptance Criteria**
+* Group related criteria together under descriptive subheadings when multiple criteria exist
+* Order criteria by user journey or logical workflow sequence
 * [Acceptance criteria exactly as specified by user]
 * [Do not create criteria not mentioned]
 * [Use "To be determined" if none provided]

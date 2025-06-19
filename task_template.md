@@ -67,6 +67,7 @@
 ---
 
 **Acceptance Criteria**
+* Group related criteria together under descriptive subheadings when multiple criteria exist
 * [Outputs only as specified by user]
 * [Definition of done only if provided]
 * [Testing requirements only if mentioned]
