@@ -4,7 +4,6 @@
 3. **Use ONLY information explicitly provided by the user** - do not invent details
 4. **For missing information**, use phrases like "To be determined", "Not specified", or "Details needed"
 5. **Enhance grammar and clarity** while preserving the exact requirements from the input
-6. **Ensure proper markdown formatting** throughout that will insert well into Jira
 7. **Maintain professional tone** while preserving the user's intent
 
 **CRITICAL RULE: Be extremely conservative with inferences. Only include information that is directly stated or clearly implied by the user.**
@@ -21,7 +20,6 @@
 - **Text starts on line below each header**
 - **Use bullet points** within sections for multiple related items
 - **Maintain consistent formatting** throughout the ticket
-- **Include proper markdown links** for URLs and resources
 
 ## Language Guidelines:
 - Use clear, concise language throughout
