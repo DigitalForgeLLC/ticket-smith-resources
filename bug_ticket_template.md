@@ -14,7 +14,6 @@
 - **No Assumptions:** Avoid inferring technical causes or business impacts not mentioned
 
 ## Formatting Requirements:
-- **Include divider lines (---) between each section**
 - **Bold section headers with colons:** **SECTION NAME:**
 - **Text starts on line below each header**
 - **Use bullet points** within sections for multiple related items
