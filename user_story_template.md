@@ -10,16 +10,24 @@
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
 2. **Follow template structure exactly** - Include all sections in order
-3. **Handle missing information** - Keep section title followed by a blank line (no placeholder text)
+3. **Handle missing information** - For empty sections, include the section title followed by one completely blank line before the next section
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
+5. **Section spacing** - ALWAYS add one blank line after every section, whether it has content or not
 
 ## Formatting Standards
 - **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
 - **Section dividers:** Use --- between sections
 - **Content placement:** Start on line below header
-- **Empty sections:** Include a blank line after the header to maintain spacing
+- **Section spacing:** ALWAYS include exactly one blank line after each section ends (before the next section divider)
+- **Empty sections:** Show header followed by one blank line, no placeholder text
 - **Lists:** Use bullet points for multiple items
 - **Consistency:** Maintain uniform formatting throughout
+
+### Critical Spacing Rule
+**Every section MUST end with a blank line before the --- divider.** This means:
+- If a section has content: content → blank line → --- divider
+- If a section is empty: section header → blank line → --- divider
+- This prevents sections from appearing jumbled together
 
 ### Formatting Examples
 **Good Example:**
@@ -132,7 +140,6 @@ Authentication:
 * [User story in standard format (only if provided)]
 * [If incomplete, use only parts given]
 * [Alternative format if user provides differently]
-[Note: Leave this section empty with a blank line if no story is provided]
 ```
 Format: Standard three-part structure or as provided
 Example: As a store manager
@@ -147,7 +154,6 @@ Example: As a store manager
 * [Context (only if provided)]
 * [Business problem (only if provided)]
 * [Current situation (only if provided)]
-[Note: Leave this section empty with a blank line if no context is provided]
 ```
 Format: Brief paragraph or bullet points
 Example: Current manual process takes 3 hours daily
@@ -162,7 +168,6 @@ Example: Current manual process takes 3 hours daily
 * Group related criteria together under descriptive subheadings when multiple criteria exist
 * Order criteria by user journey or logical workflow sequence
 * [Acceptance criteria exactly as specified by user]
-[Note: Leave this section empty with a blank line if no acceptance criteria are provided]
 ```
 Format: Grouped bullet points with subheadings
 Example: User Interface:
@@ -185,7 +190,6 @@ Example: User Interface:
 * [Testing scenarios (only if provided)]
 * [Validation steps (only if provided)]
 * [Expected results (only if provided)]
-[Note: Leave this section empty with a blank line if no testing scenarios are provided]
 ```
 Format: Numbered scenarios or bullet points
 Example: 1. Verify manager can access all department reports

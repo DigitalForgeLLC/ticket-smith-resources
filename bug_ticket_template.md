@@ -3,23 +3,30 @@
 ## Quick Reference Checklist
 - [ ] All required sections included in order
 - [ ] Only user-provided information used
-- [ ] Empty sections have title only (no placeholder text)
+- [ ] Empty sections have title only with blank line after
 - [ ] Formatting consistent throughout
 - [ ] No assumptions or inferences made
 
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
 2. **Follow template structure exactly** - Include all sections in order
-3. **Handle missing information** - Keep section title followed by a blank line (no "Not specified", "To be determined", or similar text)
+3. **Handle missing information** - For empty sections, include the section title followed by one completely blank line before the next section
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
+5. **Section spacing** - ALWAYS add one blank line after every section, whether it has content or not
 
 ## Formatting Standards
 - **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
-- **Section dividers:** Use --- between sections
 - **Content placement:** Start on line below header
-- **Empty sections:** Include a blank line after the header to maintain spacing
+- **Section spacing:** ALWAYS include exactly one blank line after each section ends (before the next section header)
+- **Empty sections:** Show header followed by one blank line, no placeholder text
 - **Lists:** Use bullet points for multiple items
 - **Consistency:** Maintain uniform formatting throughout
+
+### Critical Spacing Rule
+**Every section MUST end with a blank line.** This means:
+- If a section has content: content → blank line → next section header
+- If a section is empty: section header → blank line → next section header
+- This prevents sections from appearing jumbled together
 
 ### Formatting Examples
 **Good Example:**
@@ -40,12 +47,13 @@ ISSUE - 404 error
 ## Content Guidelines
 
 ### What TO Do
-- **Be conservative:** When in doubt, leave a section with just the title and a blank line if there is nothing meaningful for that section provided by the user. 
-- **Quotes** Quote user's exact words if they reference direct quotes from a user or error message, etc.
+- **Be conservative:** When in doubt, show only the section header with a blank line after it
+- **Quotes:** Quote user's exact words if they reference direct quotes from a user or error message, etc.
 - **Stay factual:** Only include explicitly stated information
-- **Group logically:** Organize related items together in the output so it's easy for the reader to follow and comprehend what is being conveyed. 
+- **Group logically:** Organize related items together in the output so it's easy for the reader to follow and comprehend what is being conveyed
 - **Prioritize clarity:** Use clear, actionable language
-- **Handle partial information:** If user provides some but not all details, include what's given and mark the rest as blank.
+- **Handle partial information:** If user provides some but not all details, include what's given and leave other sections empty
+- **Maintain spacing:** Every section must end with a blank line, regardless of content
 
 ### Common Scenarios
 - **User hints at urgency:** Document their exact words without interpreting priority/severity
@@ -132,7 +140,6 @@ The export button on the reports page gives an error
 [Browser/version only if explicitly stated]
 [System details only if explicitly stated]
 [Additional configuration only if explicitly stated]
-[Note: Leave this section blank if no environment details are provided]
 ```
 Format: Each detail on a new line
 Example: Customer XYZ in Production
@@ -144,7 +151,6 @@ Example: Customer XYZ in Production
 [Problem description as provided by user]
 [Additional details only if explicitly mentioned]
 [Error messages exactly as quoted by user (if provided)]
-[Note: This section should never be blank as it's the core of the bug report]
 ```
 Format: Paragraph form with quoted errors
 Example: User cannot save form data. When clicking the save button, 
@@ -157,7 +163,6 @@ Example: User cannot save form data. When clicking the save button,
 [Areas/modules mentioned by user (only if provided)]
 [Impact scope (only if provided)]
 [Affected processes only as described by user (only if provided)]
-[Note: Leave this section blank if no impact information is provided]
 ```
 Format: Bullet points for multiple items
 Example: • ABCD Segmentation
@@ -169,7 +174,6 @@ Example: • ABCD Segmentation
 [Steps exactly as provided by user (only if provided)]
 [Do not create or assume steps]
 [Include only examples explicitly mentioned (only if provided)]
-[Note: Leave this section blank if no steps are provided]
 ```
 Format: Numbered list
 Example: 1. Log in to production
@@ -184,7 +188,6 @@ Example: 1. Log in to production
 [Expected behavior (only if provided)]
 [Only include references provided by user]
 [Do not assume or add alignment context]
-[Note: Leave this section blank if no expected behavior is provided]
 ```
 Format: Clear statement of desired outcome
 Example: Form should save successfully and display confirmation message if all required fields are filled out by the user. 
@@ -194,7 +197,6 @@ Example: Form should save successfully and display confirmation message if all r
 *Temporary solutions users can employ*
 [Workarounds if provided by user (only if provided)]
 [Do not suggest workarounds not mentioned by user]
-[Note: Leave this section blank if no workarounds are provided]
 ```
 Format: Bullet points if multiple
 Example: • Update the filter to use the "Contains" operator instead of "Equals"
@@ -204,7 +206,6 @@ Example: • Update the filter to use the "Contains" operator instead of "Equals
 *Who found the bug and when*
 [Discovery source if mentioned (only if provided)]
 [Date/reporter (only if provided)]
-[Note: Leave this section blank if no discovery information is provided]
 ```
 Format: Name/source and date
 Example: Jane Smith (Customer Support)
@@ -215,7 +216,6 @@ Example: Jane Smith (Customer Support)
 *Technical information that may help with debugging*
 [Technical details only if provided by user]
 [Do not add suspected causes or investigation areas (unless provided)]
-[Note: Leave this section blank if no technical details are provided]
 ```
 Format: Technical details as provided
 Example: API returns 500 error in the Console. 
@@ -224,7 +224,6 @@ Example: API returns 500 error in the Console.
 **SUPPORT NOTES:**
 *Customer impact or support team observations*
 [Support notes (only if provided)]
-[Note: Leave this section blank if no support notes are provided]
 ```
 Format: Brief notes from support perspective
 Example: Three customers reported this issue today

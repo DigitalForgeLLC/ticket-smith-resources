@@ -10,17 +10,24 @@
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
 2. **Follow template structure exactly** - Include all sections in order
-3. **Handle missing information** - Keep section title followed by a blank line (no placeholder text)
+3. **Handle missing information** - For empty sections, include the section title followed by one completely blank line before the next section
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
+5. **Section spacing** - ALWAYS add one blank line after every section, whether it has content or not
 
 ## Formatting Standards
 - **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
-- **Section dividers:** Use --- between sections
 - **Content placement:** Start on line below header
-- **Empty sections:** Include a blank line after the header to maintain spacing
+- **Section spacing:** ALWAYS include exactly one blank line after each section ends (before the next section header)
+- **Empty sections:** Show header followed by one blank line, no placeholder text
 - **Lists:** Use bullet points for multiple items
 - **Consistency:** Maintain uniform formatting throughout
 - **Emojis:** Keep the emoji icons in section headers as shown
+
+### Critical Spacing Rule
+**Every section MUST end with a blank line.** This means:
+- If a section has content: content → blank line → next section header
+- If a section is empty: section header → blank line → next section header
+- This prevents sections from appearing jumbled together
 
 ### Formatting Examples
 **Good Example:**
@@ -140,7 +147,6 @@ Goals: better usability
 *What needs to be designed and why*
 * [Design request as stated by user]
 * [Problem/opportunity (only if provided)]
-[Note: This section should never be blank as it's the core of the design request]
 ```
 Format: Clear description of the design need
 Example: * Redesign onboarding flow to reduce drop-off rate
@@ -153,7 +159,6 @@ Example: * Redesign onboarding flow to reduce drop-off rate
 * [Goals as stated by user]
 * [Objectives (only if provided)]
 * [Metrics (only if provided)]
-[Note: Leave this section empty with a blank line if no goals are provided]
 ```
 Format: Bullet points with measurable outcomes where provided
 Example: * Reduce onboarding drop-off to under 30%
@@ -167,7 +172,6 @@ Example: * Reduce onboarding drop-off to under 30%
 * [User flows (only if provided)]
 * [Systems/platforms (only if provided)]
 * [Stakeholders (only if provided)]
-[Note: Leave this section empty with a blank line if no affected areas are mentioned]
 ```
 Format: Categorized list
 Example: User Flows:
@@ -186,7 +190,6 @@ Example: User Flows:
 * [Deliverables (only if provided)]
 * [File formats (only if provided)]
 * [Documentation needs (only if provided)]
-[Note: Leave this section empty with a blank line if no deliverables are specified]
 ```
 Format: Specific deliverables with details
 Example: * High-fidelity mockups for all screens
@@ -201,7 +204,6 @@ Example: * High-fidelity mockups for all screens
 * [References (only if provided)]
 * [Constraints (only if provided)]
 * [Links/documents (only if provided)]
-[Note: Leave this section empty with a blank line if no research or references are provided]
 ```
 Format: Organized by type
 Example: User Research:
@@ -217,7 +219,6 @@ Example: User Research:
 **💬 Other Comments / Notes:**
 *Additional context or considerations*
 * [Additional context exactly as provided]
-[Note: Leave this section empty with a blank line if no additional comments are provided]
 ```
 Format: Any other relevant information
 Example: * CEO specifically requested a "clean, minimal look"
