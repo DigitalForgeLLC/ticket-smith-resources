@@ -10,22 +10,23 @@
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
 2. **Follow template structure exactly** - Include all sections in order
-3. **Handle missing information** - For empty sections, include the section title followed by one completely blank line before the next section
+3. **Handle missing information** - For empty sections, include the section title, then at least one completely blank line, then the next section header
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
-5. **Section spacing** - ALWAYS add one blank line after every section, whether it has content or not
+5. **Section spacing** - ALWAYS have at least one blank line between the end of any section and the start of the next section header
 
 ## Formatting Standards
 - **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
 - **Content placement:** Start on line below header
-- **Section spacing:** ALWAYS include exactly one blank line after each section ends (before the next section header)
-- **Empty sections:** Show header followed by one blank line, no placeholder text
+- **Section spacing:** ALWAYS include at least one completely blank line between sections (after content/empty section and before next header)
+- **Empty sections:** Show header, then a blank line, then the next section header (no placeholder text)
 - **Lists:** Use bullet points for multiple items
 - **Consistency:** Maintain uniform formatting throughout
 
 ### Critical Spacing Rule
-**Every section MUST end with a blank line.** This means:
-- If a section has content: content → blank line → next section header
+**There MUST be at least one completely blank line between sections.** This means:
+- If a section has content: last line of content → blank line → next section header
 - If a section is empty: section header → blank line → next section header
+- The blank line must be completely empty (no spaces or characters)
 - This prevents sections from appearing jumbled together
 
 ### Formatting Examples
@@ -120,6 +121,7 @@ Modernize infrastructure
 
 **RESOURCES:**
 ```
+**Key Point:** Notice there is a blank line between each section, even when sections are empty.
 
 ### Example 3: Resources Mentioned
 **User Input:** "Reference the architecture docs and involve the platform team"

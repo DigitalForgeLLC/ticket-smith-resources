@@ -10,23 +10,24 @@
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
 2. **Follow template structure exactly** - Include all sections in order
-3. **Handle missing information** - For empty sections, include the section title followed by one completely blank line before the next section
+3. **Handle missing information** - For empty sections, include the section title, then at least one completely blank line, then the --- divider
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
-5. **Section spacing** - ALWAYS add one blank line after every section, whether it has content or not
+5. **Section spacing** - ALWAYS have at least one blank line between the end of any section and the --- divider
 
 ## Formatting Standards
 - **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
 - **Section dividers:** Use --- between sections
 - **Content placement:** Start on line below header
-- **Section spacing:** ALWAYS include exactly one blank line after each section ends (before the next section divider)
-- **Empty sections:** Show header followed by one blank line, no placeholder text
+- **Section spacing:** ALWAYS include at least one completely blank line between sections (after content/empty section and before --- divider)
+- **Empty sections:** Show header, then a blank line, then the --- divider (no placeholder text)
 - **Lists:** Use bullet points for multiple items
 - **Consistency:** Maintain uniform formatting throughout
 
 ### Critical Spacing Rule
-**Every section MUST end with a blank line before the --- divider.** This means:
-- If a section has content: content → blank line → --- divider
+**There MUST be at least one completely blank line before each --- divider.** This means:
+- If a section has content: last line of content → blank line → --- divider
 - If a section is empty: section header → blank line → --- divider
+- The blank line must be completely empty (no spaces or characters)
 - This prevents sections from appearing jumbled together
 
 ### Formatting Examples
@@ -110,13 +111,20 @@ So I can onboard new employees faster
 **Story:**
 Users should be able to filter search results
 
+---
+
 **Context:**
+
+---
 
 **Acceptance Criteria:**
 * Users can filter search results
 
+---
+
 **Testing:**
 ```
+**Key Point:** Notice there is a blank line before each --- divider, even for empty sections.
 
 ### Example 3: Multiple Criteria
 **User Input:** "Need login with email, password reset, and remember me option"
