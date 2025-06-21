@@ -1,9 +1,16 @@
 # Instructions
 
+## Quick Reference Checklist
+- [ ] All required sections included in order
+- [ ] Only user-provided information used
+- [ ] Empty sections have title only (no placeholder text)
+- [ ] Formatting consistent throughout
+- [ ] No assumptions or inferences made
+
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
 2. **Follow template structure exactly** - Include all sections in order
-3. **Mark missing information clearly** - Use "To be determined" or "Not specified"
+3. **Handle missing information** - Keep section title but leave content blank (no placeholder text)
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
 
 ## Formatting Standards
@@ -13,12 +20,50 @@
 - **Lists:** Use bullet points for multiple items
 - **Consistency:** Maintain uniform formatting throughout
 
+### Formatting Examples
+**Good Example:**
+```
+**Why:**
+* Improve system performance for better user experience
+* Reduce server costs by optimizing database queries
+
+**How:**
+* Analyze current query performance metrics
+* Identify and optimize slow queries
+* Implement caching where appropriate
+```
+
+**Poor Example:**
+```
+Why: performance, costs
+How - optimize queries
+```
+
 ## Content Guidelines
-- **Be conservative:** When in doubt, mark as "To be determined"
-- **Use exact language:** Quote user's words where possible
+
+### What TO Do
+- **Be conservative:** When in doubt, leave a section blank with title only
+- **Quotes:** Quote user's exact words if they reference direct quotes
 - **Stay factual:** Only include explicitly stated information
-- **Group logically:** Organize related items together
+- **Group logically:** Organize related items together for clarity
 - **Prioritize clarity:** Use clear, actionable language
+- **Handle partial information:** Include what's given and leave other sections empty
+
+### Common Scenarios
+- **Vague requirements:** Document exactly as stated without elaboration
+- **Technical suggestions:** Include only if explicitly provided by user
+- **Multiple related tasks:** Group under appropriate subheadings in Acceptance Criteria
+
+## Task-Specific Guidelines
+
+### Business Context vs Technical Details
+- **Business Context (ALLOWED):** "To improve customer satisfaction scores"
+- **Technical Inference (NOT ALLOWED):** "This will require database optimization"
+
+### Handling Implied Requirements
+- **User says:** "We need this done urgently"
+  - **Document as:** User states: "We need this done urgently"
+  - **Don't interpret as:** Timeline: 1 week
 
 ## Prohibited Actions
 - Creating content not provided by user
@@ -28,6 +73,31 @@
 - Including commentary about the request
 - Adding sections not in the template
 - Including ticket titles in output
+- Interpreting urgency as specific deadlines
+
+## Examples of Proper Handling
+
+### Example 1: Partial Information
+**User Input:** "We need to update the reporting module"
+**Correct Output:**
+```
+**Why:**
+* Update the reporting module
+
+**How:**
+[Left blank - no implementation details provided]
+```
+
+### Example 2: Mixed Business and Technical
+**User Input:** "Add user notifications to reduce support tickets. Use email and in-app alerts."
+**Correct Output:**
+```
+**Why:**
+* Reduce support tickets
+
+**How:**
+* Use email and in-app alerts
+```
 
 **Remember:** The goal is accurate documentation of requirements without assumptions or additions.
 
@@ -35,25 +105,54 @@
 
 # Template
 
-**Why**
-* [Reason for task only if provided by user]
-* [Business value only if explicitly stated]
-* [Impact only as described by user]
+**Why:**
+*Business reason, goal, or problem being solved*
+* [Reason for task (only if provided)]
+* [Business value (only if provided)]
+* [Impact (only if provided)]
+[Note: Leave this section blank if no business reason is provided]
+```
+Format: Bullet points
+Example: * Improve page load time to enhance user experience
+         * Meet new compliance requirements for data retention
+         * Address customer feedback about missing features
+```
 
 ---
 
-**How**
-* [Steps exactly as described by user, or "To be determined"]
-* [Technical approach only if specified]
-* [Dependencies only if mentioned by user]
-* [Resources/tools only as stated]
+**How:**
+*Implementation approach, technical details, or methodology*
+* [Steps exactly as described by user]
+* [Technical approach (only if provided)]
+* [Dependencies (only if provided)]
+* [Resources/tools (only if provided)]
+[Note: Leave this section blank if no implementation details are provided]
+```
+Format: Bullet points for steps or details
+Example: * Implement lazy loading for images
+         * Add Redis caching layer
+         * Optimize database indexes
+         * Use CDN for static assets
+```
 
 ---
 
-**Acceptance Criteria**
+**Acceptance Criteria:**
+*Specific, measurable conditions that must be met*
 * Group related criteria together under descriptive subheadings when multiple criteria exist
-* [Outputs only as specified by user]
-* [Definition of done only if provided]
-* [Testing requirements only if mentioned]
-* [Documentation needs only if stated]
+* [Outputs (only if provided)]
+* [Definition of done (only if provided)]
+* [Testing requirements (only if provided)]
+* [Documentation needs (only if provided)]
+[Note: Leave this section blank if no acceptance criteria are provided]
+```
+Format: Grouped bullet points with subheadings
+Example: Performance Requirements:
+         * Page loads in under 2 seconds
+         * Support 1000 concurrent users
+         
+         User Experience:
+         * Loading spinner displays during data fetch
+         * Error messages are user-friendly
+```
 
