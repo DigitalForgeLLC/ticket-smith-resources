@@ -10,13 +10,14 @@
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
 2. **Follow template structure exactly** - Include all sections in order
-3. **Handle missing information** - Keep section title but leave content blank (no placeholder text)
+3. **Handle missing information** - Keep section title followed by a blank line (no placeholder text)
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
 
 ## Formatting Standards
 - **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
 - **Section dividers:** Use --- between sections
 - **Content placement:** Start on line below header
+- **Empty sections:** Include a blank line after the header to maintain spacing
 - **Lists:** Use bullet points for multiple items
 - **Consistency:** Maintain uniform formatting throughout
 - **Emojis:** Keep the emoji icons in section headers as shown
@@ -42,7 +43,7 @@ Goals: better usability
 ## Content Guidelines
 
 ### What TO Do
-- **Be conservative:** When in doubt, leave a section blank with title only
+- **Be conservative:** When in doubt, leave a section with just the title and a blank line
 - **Quotes:** Quote user's exact words when they provide specific requirements
 - **Stay factual:** Only include explicitly stated information
 - **Group logically:** Organize related items together for clarity
@@ -104,6 +105,16 @@ Goals: better usability
 ```
 **📌 Description:**
 * Update the color scheme to match new branding
+
+**🎯 Goals & Objectives:**
+
+**🗺️ Affected Areas:**
+
+**📋 Deliverables:**
+
+**🔍 Research & References:**
+
+**💬 Other Comments / Notes:**
 ```
 
 ### Example 3: Multiple Stakeholders
@@ -142,7 +153,7 @@ Example: * Redesign onboarding flow to reduce drop-off rate
 * [Goals as stated by user]
 * [Objectives (only if provided)]
 * [Metrics (only if provided)]
-[Note: Leave this section blank if no goals are provided]
+[Note: Leave this section empty with a blank line if no goals are provided]
 ```
 Format: Bullet points with measurable outcomes where provided
 Example: * Reduce onboarding drop-off to under 30%
@@ -156,7 +167,7 @@ Example: * Reduce onboarding drop-off to under 30%
 * [User flows (only if provided)]
 * [Systems/platforms (only if provided)]
 * [Stakeholders (only if provided)]
-[Note: Leave this section blank if no affected areas are mentioned]
+[Note: Leave this section empty with a blank line if no affected areas are mentioned]
 ```
 Format: Categorized list
 Example: User Flows:
@@ -175,7 +186,7 @@ Example: User Flows:
 * [Deliverables (only if provided)]
 * [File formats (only if provided)]
 * [Documentation needs (only if provided)]
-[Note: Leave this section blank if no deliverables are specified]
+[Note: Leave this section empty with a blank line if no deliverables are specified]
 ```
 Format: Specific deliverables with details
 Example: * High-fidelity mockups for all screens
@@ -190,7 +201,7 @@ Example: * High-fidelity mockups for all screens
 * [References (only if provided)]
 * [Constraints (only if provided)]
 * [Links/documents (only if provided)]
-[Note: Leave this section blank if no research or references are provided]
+[Note: Leave this section empty with a blank line if no research or references are provided]
 ```
 Format: Organized by type
 Example: User Research:
@@ -206,7 +217,7 @@ Example: User Research:
 **💬 Other Comments / Notes:**
 *Additional context or considerations*
 * [Additional context exactly as provided]
-[Note: Leave this section blank if no additional comments are provided]
+[Note: Leave this section empty with a blank line if no additional comments are provided]
 ```
 Format: Any other relevant information
 Example: * CEO specifically requested a "clean, minimal look"

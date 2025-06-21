@@ -10,13 +10,14 @@
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
 2. **Follow template structure exactly** - Include all sections in order
-3. **Handle missing information** - Keep section title but leave content blank (no placeholder text)
+3. **Handle missing information** - Keep section title followed by a blank line (no placeholder text)
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
 
 ## Formatting Standards
 - **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
 - **Section dividers:** Use --- between sections
 - **Content placement:** Start on line below header
+- **Empty sections:** Include a blank line after the header to maintain spacing
 - **Lists:** Use bullet points for multiple items
 - **Consistency:** Maintain uniform formatting throughout
 
@@ -45,7 +46,7 @@ Scope: everything customer-facing
 ## Content Guidelines
 
 ### What TO Do
-- **Be conservative:** When in doubt, leave a section blank with title only
+- **Be conservative:** When in doubt, leave a section with just the title and a blank line
 - **Quotes:** Quote user's exact words when they provide specific metrics or goals
 - **Stay factual:** Only include explicitly stated information
 - **Group logically:** Organize related items under clear subheadings
@@ -109,6 +110,8 @@ Expected Outcome:
 ```
 **OVERVIEW:**
 Modernize infrastructure
+
+**RESOURCES:**
 ```
 
 ### Example 3: Resources Mentioned
@@ -133,7 +136,7 @@ Modernize infrastructure
 [Scope (only if provided)]
 [Deliverables (only if provided)]
 [Success criteria (only if provided)]
-[Note: Leave this section blank if no overview is provided]
+[Note: Leave this section empty with a blank line if no overview is provided]
 ```
 Format: Structured sections with subheadings as needed
 Example: Mobile Customer Portal Epic
@@ -160,7 +163,7 @@ Example: Mobile Customer Portal Epic
 [Documentation (only if provided)]
 [Links (only if provided)]
 [Teams/stakeholders (only if provided)]
-[Note: Leave this section blank if no resources are provided]
+[Note: Leave this section empty with a blank line if no resources are provided]
 ```
 Format: Categorized list
 Example: Documentation:

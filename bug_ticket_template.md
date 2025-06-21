@@ -10,13 +10,14 @@
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
 2. **Follow template structure exactly** - Include all sections in order
-3. **Handle missing information** - Keep section title but leave content blank (no "Not specified", "To be determined", or similar text)
+3. **Handle missing information** - Keep section title followed by a blank line (no "Not specified", "To be determined", or similar text)
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
 
 ## Formatting Standards
 - **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
 - **Section dividers:** Use --- between sections
 - **Content placement:** Start on line below header
+- **Empty sections:** Include a blank line after the header to maintain spacing
 - **Lists:** Use bullet points for multiple items
 - **Consistency:** Maintain uniform formatting throughout
 
@@ -39,7 +40,7 @@ ISSUE - 404 error
 ## Content Guidelines
 
 ### What TO Do
-- **Be conservative:** When in doubt, leave a section blank if there is nothing meaningful for that section provided by the user. You should still include the section title. 
+- **Be conservative:** When in doubt, leave a section with just the title and a blank line if there is nothing meaningful for that section provided by the user. 
 - **Quotes** Quote user's exact words if they reference direct quotes from a user or error message, etc.
 - **Stay factual:** Only include explicitly stated information
 - **Group logically:** Organize related items together in the output so it's easy for the reader to follow and comprehend what is being conveyed. 
@@ -86,12 +87,40 @@ ISSUE - 404 error
 Development
 
 **ISSUE:**
-The user is unable to save their edits after editing a filter. 
+The user is unable to save their edits after editing a filter.
+
+**IMPACTED AREAS AND USERS:**
+
+**STEPS TO RECREATE:**
 ```
 
 ### Example 2: Multiple Issues
 **User Input:** "Login fails and also the dashboard is slow"
 **Correct Output:** Focus on primary issue (login) unless specifically asked for multiple tickets
+
+### Example 3: Empty Sections Format
+**User Input:** "The export button on the reports page gives an error"
+**Correct Output:**
+```
+**ENVIRONMENT:**
+
+**ISSUE:**
+The export button on the reports page gives an error
+
+**IMPACTED AREAS AND USERS:**
+
+**STEPS TO RECREATE:**
+
+**EXPECTED BEHAVIOR:**
+
+**WORKAROUNDS:**
+
+**DISCOVERED BY/DATE:**
+
+**DEV NOTES:**
+
+**SUPPORT NOTES:**
+```
 
 ---
 

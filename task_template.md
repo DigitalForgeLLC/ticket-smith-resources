@@ -10,13 +10,14 @@
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
 2. **Follow template structure exactly** - Include all sections in order
-3. **Handle missing information** - Keep section title but leave content blank (no placeholder text)
+3. **Handle missing information** - Keep section title followed by a blank line (no placeholder text)
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
 
 ## Formatting Standards
 - **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
 - **Section dividers:** Use --- between sections
 - **Content placement:** Start on line below header
+- **Empty sections:** Include a blank line after the header to maintain spacing
 - **Lists:** Use bullet points for multiple items
 - **Consistency:** Maintain uniform formatting throughout
 
@@ -42,7 +43,7 @@ How - optimize queries
 ## Content Guidelines
 
 ### What TO Do
-- **Be conservative:** When in doubt, leave a section blank with title only
+- **Be conservative:** When in doubt, leave a section with just the title and a blank line
 - **Quotes:** Quote user's exact words if they reference direct quotes
 - **Stay factual:** Only include explicitly stated information
 - **Group logically:** Organize related items together for clarity
@@ -85,7 +86,8 @@ How - optimize queries
 * Update the reporting module
 
 **How:**
-[Left blank - no implementation details provided]
+
+**Acceptance Criteria:**
 ```
 
 ### Example 2: Mixed Business and Technical
@@ -110,7 +112,7 @@ How - optimize queries
 * [Reason for task (only if provided)]
 * [Business value (only if provided)]
 * [Impact (only if provided)]
-[Note: Leave this section blank if no business reason is provided]
+[Note: Leave this section empty with a blank line if no business reason is provided]
 ```
 Format: Bullet points
 Example: * Improve page load time to enhance user experience
@@ -126,7 +128,7 @@ Example: * Improve page load time to enhance user experience
 * [Technical approach (only if provided)]
 * [Dependencies (only if provided)]
 * [Resources/tools (only if provided)]
-[Note: Leave this section blank if no implementation details are provided]
+[Note: Leave this section empty with a blank line if no implementation details are provided]
 ```
 Format: Bullet points for steps or details
 Example: * Implement lazy loading for images
@@ -144,7 +146,7 @@ Example: * Implement lazy loading for images
 * [Definition of done (only if provided)]
 * [Testing requirements (only if provided)]
 * [Documentation needs (only if provided)]
-[Note: Leave this section blank if no acceptance criteria are provided]
+[Note: Leave this section empty with a blank line if no acceptance criteria are provided]
 ```
 Format: Grouped bullet points with subheadings
 Example: Performance Requirements:
