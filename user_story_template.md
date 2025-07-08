@@ -143,7 +143,7 @@ Authentication:
 
 # Template
 
-**Story:**
+## Story:
 *User story following "As a... I want... So that..." format when provided*
 * [User story in standard format (only if provided)]
 * [If incomplete, use only parts given]
@@ -157,7 +157,7 @@ Example: As a store manager
 
 ---
 
-**Context:**
+## Context:
 *Background information or business problem being addressed*
 * [Context (only if provided)]
 * [Business problem (only if provided)]
@@ -171,7 +171,7 @@ Example: Current manual process takes 3 hours daily
 
 ---
 
-**Acceptance Criteria:**
+## Acceptance Criteria:
 *Specific conditions that must be met for story completion*
 * Group related criteria together under descriptive subheadings when multiple criteria exist
 * Order criteria by user journey or logical workflow sequence
@@ -193,7 +193,7 @@ Example: User Interface:
 
 ---
 
-**Testing:**
+## Testing:
 *Test scenarios or validation requirements*
 * [Testing scenarios (only if provided)]
 * [Validation steps (only if provided)]

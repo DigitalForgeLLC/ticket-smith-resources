@@ -136,7 +136,7 @@ The export button on the reports page gives an error
 
 # Template
 
-**ENVIRONMENT:**
+## ENVIRONMENT:
 *Include environment, browser, company and/or configuration details where the bug occurs (if provided)*
 [Environment if specified by user]
 [Browser/version only if explicitly stated]
@@ -148,7 +148,7 @@ Example: Customer XYZ in Production
          Feature Gate ABC ENABLED
 ```
 
-**ISSUE:**
+## ISSUE:
 *Clear description of what's wrong, including any error messages*
 [Problem description as provided by user]
 [Additional details only if explicitly mentioned]
@@ -160,7 +160,7 @@ Example: User cannot save form data. When clicking the save button,
          property 'id' of null"
 ```
 
-**IMPACTED AREAS AND USERS:**
+## IMPACTED AREAS AND USERS:
 *Specify which parts of the system and which users are affected*
 [Areas/modules mentioned by user (only if provided)]
 [Impact scope (only if provided)]
@@ -171,7 +171,7 @@ Example: • ABCD Segmentation
          • All users
 ```
 
-**STEPS TO RECREATE:**
+## STEPS TO RECREATE:
 *Numbered list of actions to reproduce the bug*
 [Steps exactly as provided by user (only if provided)]
 [Do not create or assume steps]
@@ -185,7 +185,7 @@ Example: 1. Log in to production
          5. Click "Save"
 ```
 
-**EXPECTED BEHAVIOR:**
+## EXPECTED BEHAVIOR:
 *What should happen instead of the bug*
 [Expected behavior (only if provided)]
 [Only include references provided by user]
@@ -195,7 +195,7 @@ Format: Clear statement of desired outcome
 Example: Form should save successfully and display confirmation message if all required fields are filled out by the user. 
 ```
 
-**WORKAROUNDS:**
+## WORKAROUNDS:
 *Temporary solutions users can employ*
 [Workarounds if provided by user (only if provided)]
 [Do not suggest workarounds not mentioned by user]
@@ -204,7 +204,7 @@ Format: Bullet points if multiple
 Example: • Update the filter to use the "Contains" operator instead of "Equals"
 ```
 
-**DISCOVERED BY/DATE:**
+## DISCOVERED BY/DATE:
 *Who found the bug and when*
 [Discovery source if mentioned (only if provided)]
 [Date/reporter (only if provided)]
@@ -214,7 +214,7 @@ Example: Jane Smith (Customer Support)
          2024-01-15
 ```
 
-**DEV NOTES:**
+## DEV NOTES:
 *Technical information that may help with debugging*
 [Technical details only if provided by user]
 [Do not add suspected causes or investigation areas (unless provided)]
@@ -223,7 +223,7 @@ Format: Technical details as provided
 Example: API returns 500 error in the Console. 
 ```
 
-**SUPPORT NOTES:**
+## SUPPORT NOTES:
 *Customer impact or support team observations*
 [Support notes (only if provided)]
 ```

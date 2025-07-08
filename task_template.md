@@ -121,7 +121,7 @@ How - optimize queries
 
 # Template
 
-**Why:**
+## Why:
 *Business reason, goal, or problem being solved*
 * [Reason for task (only if provided)]
 * [Business value (only if provided)]
@@ -135,7 +135,7 @@ Example: * Improve page load time to enhance user experience
 
 ---
 
-**How:**
+## How:
 *Implementation approach, technical details, or methodology*
 * [Steps exactly as described by user]
 * [Technical approach (only if provided)]
@@ -151,7 +151,7 @@ Example: * Implement lazy loading for images
 
 ---
 
-**Acceptance Criteria:**
+## Acceptance Criteria:
 *Specific, measurable conditions that must be met*
 * Group related criteria together under descriptive subheadings when multiple criteria exist
 * [Outputs (only if provided)]

@@ -138,7 +138,7 @@ Modernize infrastructure
 
 # Template Structure
 
-**OVERVIEW:**
+## OVERVIEW:
 *High-level description of the epic, including objectives and scope*
 [Epic description as provided by user]
 [Business objectives (only if provided)]
@@ -165,7 +165,7 @@ Example: Mobile Customer Portal Epic
          * 40% reduction in support tickets
 ```
 
-**RESOURCES:**
+## RESOURCES:
 *Documentation, teams, and assets related to the epic*
 [Resources (only if provided)]
 [Documentation (only if provided)]

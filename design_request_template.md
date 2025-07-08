@@ -145,7 +145,7 @@ Goals: better usability
 
 # Template
 
-**📌 Description:**
+## 📌 Description:
 *What needs to be designed and why*
 * [Design request as stated by user]
 * [Problem/opportunity (only if provided)]
@@ -156,7 +156,7 @@ Example: * Redesign onboarding flow to reduce drop-off rate
          * Users report confusion with account setup process
 ```
 
-**🎯 Goals & Objectives:**
+## 🎯 Goals & Objectives:
 *What the design should achieve*
 * [Goals as stated by user]
 * [Objectives (only if provided)]
@@ -168,7 +168,7 @@ Example: * Reduce onboarding drop-off to under 30%
          * Achieve 80% user satisfaction score
 ```
 
-**🗺️ Affected Areas:**
+## 🗺️ Affected Areas:
 *Parts of the system, user groups, or workflows impacted*
 * [Areas mentioned by user]
 * [User flows (only if provided)]
@@ -187,7 +187,7 @@ Example: User Flows:
          * Android app
 ```
 
-**📋 Deliverables:**
+## 📋 Deliverables:
 *Expected design outputs*
 * [Deliverables (only if provided)]
 * [File formats (only if provided)]
@@ -200,7 +200,7 @@ Example: * High-fidelity mockups for all screens
          * Accessibility compliance report
 ```
 
-**🔍 Research & References:**
+## 🔍 Research & References:
 *Background information and constraints*
 * [Research/data (only if provided)]
 * [References (only if provided)]
@@ -218,7 +218,7 @@ Example: User Research:
          * Use current design system components
 ```
 
-**💬 Other Comments / Notes:**
+## 💬 Other Comments / Notes:
 *Additional context or considerations*
 * [Additional context exactly as provided]
 ```
