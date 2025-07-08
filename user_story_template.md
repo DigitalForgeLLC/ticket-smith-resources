@@ -15,9 +15,9 @@
 5. **Section spacing** - ALWAYS have at least one blank line between the end of any section and the --- divider
 
 ## Formatting Standards
-- **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
+- **Section headers:** Use header 2 format (##) with colon (e.g., ## SECTION NAME:)
 - **Section dividers:** Use --- between sections
-- **Content placement:** Start on line below header
+- **Content placement:** ALWAYS start content on the line immediately below the header - never on the same line as the header
 - **Section spacing:** ALWAYS include at least one completely blank line between sections (after content/empty section and before --- divider)
 - **Empty sections:** Show header, then a blank line, then the --- divider (no placeholder text)
 - **Lists:** Use bullet points for multiple items
@@ -28,17 +28,18 @@
 - If a section has content: last line of content → blank line → --- divider
 - If a section is empty: section header → blank line → --- divider
 - The blank line must be completely empty (no spaces or characters)
+- Content MUST start on the line below the header, never on the same line
 - This prevents sections from appearing jumbled together
 
 ### Formatting Examples
 **Good Example:**
 ```
-**Story:**
+## Story:
 As a marketing manager
 I want to export campaign analytics to Excel
 So that I can create custom reports for stakeholders
 
-**Acceptance Criteria:**
+## Acceptance Criteria:
 Data Export:
 * User can select date range for export
 * Export includes all campaign metrics
@@ -98,7 +99,7 @@ Acceptance Criteria: export functionality
 **User Input:** "As an admin, I need to bulk upload users via CSV so I can onboard new employees faster"
 **Correct Output:**
 ```
-**Story:**
+## Story:
 As an admin
 I need to bulk upload users via CSV
 So I can onboard new employees faster
@@ -108,21 +109,21 @@ So I can onboard new employees faster
 **User Input:** "Users should be able to filter search results"
 **Correct Output:**
 ```
-**Story:**
+## Story:
 Users should be able to filter search results
 
 ---
 
-**Context:**
+## Context:
 
 ---
 
-**Acceptance Criteria:**
+## Acceptance Criteria:
 * Users can filter search results
 
 ---
 
-**Testing:**
+## Testing:
 ```
 **Key Point:** Notice there is a blank line before each --- divider, even for empty sections.
 
@@ -130,7 +131,7 @@ Users should be able to filter search results
 **User Input:** "Need login with email, password reset, and remember me option"
 **Correct Output:**
 ```
-**Acceptance Criteria:**
+## Acceptance Criteria:
 Authentication:
 * Login with email
 * Password reset

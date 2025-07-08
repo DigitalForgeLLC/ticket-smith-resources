@@ -15,8 +15,8 @@
 5. **Section spacing** - ALWAYS have at least one blank line between the end of any section and the start of the next section header
 
 ## Formatting Standards
-- **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
-- **Content placement:** Start on line below header
+- **Section headers:** Use header 2 format (##) with colon (e.g., ## SECTION NAME:)
+- **Content placement:** ALWAYS start content on the line immediately below the header - never on the same line as the header
 - **Section spacing:** ALWAYS include at least one completely blank line between sections (after content/empty section and before next header)
 - **Empty sections:** Show header, then a blank line, then the next section header (no placeholder text)
 - **Lists:** Use bullet points for multiple items
@@ -27,15 +27,16 @@
 - If a section has content: last line of content → blank line → next section header
 - If a section is empty: section header → blank line → next section header
 - The blank line must be completely empty (no spaces or characters)
+- Content MUST start on the line below the header, never on the same line
 - This prevents sections from appearing jumbled together
 
 ### Formatting Examples
 **Good Example:**
 ```
-**ENVIRONMENT:**
+## ENVIRONMENT:
 Company XYZ in Production
 
-**ISSUE:**
+## ISSUE:
 The user experienced a 404 error on the ABCD Segmentation screen after the trying to filter the grid by x, y, and z at the same time.  
 ```
 
@@ -92,15 +93,15 @@ ISSUE - 404 error
 **User Input:** "The save button doesn't work for edited filters in in the Polaris demo company in Dev"
 **Correct Output:**
 ```
-**ENVIRONMENT:**
+## ENVIRONMENT:
 Development
 
-**ISSUE:**
+## ISSUE:
 The user is unable to save their edits after editing a filter.
 
-**IMPACTED AREAS AND USERS:**
+## IMPACTED AREAS AND USERS:
 
-**STEPS TO RECREATE:**
+## STEPS TO RECREATE:
 ```
 
 ### Example 2: Multiple Issues
@@ -111,24 +112,24 @@ The user is unable to save their edits after editing a filter.
 **User Input:** "The export button on the reports page gives an error"
 **Correct Output:**
 ```
-**ENVIRONMENT:**
+## ENVIRONMENT:
 
-**ISSUE:**
+## ISSUE:
 The export button on the reports page gives an error
 
-**IMPACTED AREAS AND USERS:**
+## IMPACTED AREAS AND USERS:
 
-**STEPS TO RECREATE:**
+## STEPS TO RECREATE:
 
-**EXPECTED BEHAVIOR:**
+## EXPECTED BEHAVIOR:
 
-**WORKAROUNDS:**
+## WORKAROUNDS:
 
-**DISCOVERED BY/DATE:**
+## DISCOVERED BY/DATE:
 
-**DEV NOTES:**
+## DEV NOTES:
 
-**SUPPORT NOTES:**
+## SUPPORT NOTES:
 ```
 **Key Point:** Notice there is exactly one blank line between each section, whether the section has content or not.
 

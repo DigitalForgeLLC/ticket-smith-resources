@@ -15,8 +15,8 @@
 5. **Section spacing** - ALWAYS have at least one blank line between the end of any section and the start of the next section header
 
 ## Formatting Standards
-- **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
-- **Content placement:** Start on line below header
+- **Section headers:** Use header 2 format (##) with colon (e.g., ## SECTION NAME:)
+- **Content placement:** ALWAYS start content on the line immediately below the header - never on the same line as the header
 - **Section spacing:** ALWAYS include at least one completely blank line between sections (after content/empty section and before next header)
 - **Empty sections:** Show header, then a blank line, then the next section header (no placeholder text)
 - **Lists:** Use bullet points for multiple items
@@ -28,16 +28,17 @@
 - If a section has content: last line of content → blank line → next section header
 - If a section is empty: section header → blank line → next section header
 - The blank line must be completely empty (no spaces or characters)
+- Content MUST start on the line below the header, never on the same line
 - This prevents sections from appearing jumbled together
 
 ### Formatting Examples
 **Good Example:**
 ```
-**📌 Description:**
+## 📌 Description:
 * Redesign the customer dashboard to improve usability
 * Users report difficulty finding key metrics
 
-**🎯 Goals & Objectives:**
+## 🎯 Goals & Objectives:
 * Reduce time to find information by 50%
 * Increase daily active users by 20%
 ```
@@ -96,14 +97,14 @@ Goals: better usability
 **User Input:** "Redesign checkout flow to reduce cart abandonment. Need mobile and desktop versions. Research shows users confused by shipping options."
 **Correct Output:**
 ```
-**📌 Description:**
+## 📌 Description:
 * Redesign checkout flow to reduce cart abandonment
 
-**📋 Deliverables:**
+## 📋 Deliverables:
 * Mobile versions
 * Desktop versions
 
-**🔍 Research & References:**
+## 🔍 Research & References:
 * Research shows users confused by shipping options
 ```
 
@@ -111,18 +112,18 @@ Goals: better usability
 **User Input:** "Update the color scheme to match new branding"
 **Correct Output:**
 ```
-**📌 Description:**
+## 📌 Description:
 * Update the color scheme to match new branding
 
-**🎯 Goals & Objectives:**
+## 🎯 Goals & Objectives:
 
-**🗺️ Affected Areas:**
+## 🗺️ Affected Areas:
 
-**📋 Deliverables:**
+## 📋 Deliverables:
 
-**🔍 Research & References:**
+## 🔍 Research & References:
 
-**💬 Other Comments / Notes:**
+## 💬 Other Comments / Notes:
 ```
 **Key Point:** Notice there is a blank line between each section, even when sections are empty.
 
@@ -130,11 +131,11 @@ Goals: better usability
 **User Input:** "Marketing wants new landing pages, sales needs lead forms integrated"
 **Correct Output:**
 ```
-**📌 Description:**
+## 📌 Description:
 * New landing pages requested by marketing
 * Lead forms integration needed by sales
 
-**🗺️ Affected Areas:**
+## 🗺️ Affected Areas:
 * Marketing
 * Sales
 ```

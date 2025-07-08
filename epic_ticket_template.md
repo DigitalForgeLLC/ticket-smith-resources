@@ -15,8 +15,8 @@
 5. **Section spacing** - ALWAYS have at least one blank line between the end of any section and the start of the next section header
 
 ## Formatting Standards
-- **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
-- **Content placement:** Start on line below header
+- **Section headers:** Use header 2 format (##) with colon (e.g., ## SECTION NAME:)
+- **Content placement:** ALWAYS start content on the line immediately below the header - never on the same line as the header
 - **Section spacing:** ALWAYS include at least one completely blank line between sections (after content/empty section and before next header)
 - **Empty sections:** Show header, then a blank line, then the next section header (no placeholder text)
 - **Lists:** Use bullet points for multiple items
@@ -27,12 +27,13 @@
 - If a section has content: last line of content → blank line → next section header
 - If a section is empty: section header → blank line → next section header
 - The blank line must be completely empty (no spaces or characters)
+- Content MUST start on the line below the header, never on the same line
 - This prevents sections from appearing jumbled together
 
 ### Formatting Examples
 **Good Example:**
 ```
-**OVERVIEW:**
+## OVERVIEW:
 Implement comprehensive customer portal allowing self-service account management
 
 Business Objectives:
@@ -100,7 +101,7 @@ Scope: everything customer-facing
 **User Input:** "Create a new mobile app for customers to track orders, view history, and contact support. Should reduce call volume."
 **Correct Output:**
 ```
-**OVERVIEW:**
+## OVERVIEW:
 Create a new mobile app for customers
 
 Features:
@@ -116,10 +117,10 @@ Expected Outcome:
 **User Input:** "We need to modernize our infrastructure"
 **Correct Output:**
 ```
-**OVERVIEW:**
+## OVERVIEW:
 Modernize infrastructure
 
-**RESOURCES:**
+## RESOURCES:
 ```
 **Key Point:** Notice there is a blank line between each section, even when sections are empty.
 
@@ -127,7 +128,7 @@ Modernize infrastructure
 **User Input:** "Reference the architecture docs and involve the platform team"
 **Correct Output:**
 ```
-**RESOURCES:**
+## RESOURCES:
 * Architecture docs
 * Platform team involvement
 ```

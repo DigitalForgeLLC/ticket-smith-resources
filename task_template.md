@@ -15,9 +15,9 @@
 5. **Section spacing** - ALWAYS have at least one blank line between the end of any section and the --- divider
 
 ## Formatting Standards
-- **Section headers:** Bold with colon (e.g., **SECTION NAME:**)
+- **Section headers:** Use header 2 format (##) with colon (e.g., ## SECTION NAME:)
 - **Section dividers:** Use --- between sections
-- **Content placement:** Start on line below header
+- **Content placement:** ALWAYS start content on the line immediately below the header - never on the same line as the header
 - **Section spacing:** ALWAYS include at least one completely blank line between sections (after content/empty section and before --- divider)
 - **Empty sections:** Show header, then a blank line, then the --- divider (no placeholder text)
 - **Lists:** Use bullet points for multiple items
@@ -28,16 +28,17 @@
 - If a section has content: last line of content → blank line → --- divider
 - If a section is empty: section header → blank line → --- divider
 - The blank line must be completely empty (no spaces or characters)
+- Content MUST start on the line below the header, never on the same line
 - This prevents sections from appearing jumbled together
 
 ### Formatting Examples
 **Good Example:**
 ```
-**Why:**
+## Why:
 * Improve system performance for better user experience
 * Reduce server costs by optimizing database queries
 
-**How:**
+## How:
 * Analyze current query performance metrics
 * Identify and optimize slow queries
 * Implement caching where appropriate
@@ -91,16 +92,16 @@ How - optimize queries
 **User Input:** "We need to update the reporting module"
 **Correct Output:**
 ```
-**Why:**
+## Why:
 * Update the reporting module
 
 ---
 
-**How:**
+## How:
 
 ---
 
-**Acceptance Criteria:**
+## Acceptance Criteria:
 ```
 **Key Point:** Notice there is a blank line before each --- divider, even for empty sections.
 
@@ -108,10 +109,10 @@ How - optimize queries
 **User Input:** "Add user notifications to reduce support tickets. Use email and in-app alerts."
 **Correct Output:**
 ```
-**Why:**
+## Why:
 * Reduce support tickets
 
-**How:**
+## How:
 * Use email and in-app alerts
 ```
 
