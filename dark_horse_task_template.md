@@ -151,21 +151,3 @@ Example: * Implement lazy loading for images
 ```
 
 ---
-
-## Acceptance Criteria:
-*Specific, measurable conditions that must be met*
-* Group related criteria together under descriptive subheadings when multiple criteria exist
-* [Outputs (only if provided)]
-* [Definition of done (only if provided)]
-* [Testing requirements (only if provided)]
-* [Documentation needs (only if provided)]
-```
-Format: Grouped bullet points with subheadings
-Example: Performance Requirements:
-         * Page loads in under 2 seconds
-         * Support 1000 concurrent users
-         
-         User Experience:
-         * Loading spinner displays during data fetch
-         * Error messages are user-friendly
-```

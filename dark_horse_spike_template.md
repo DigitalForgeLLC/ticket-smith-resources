@@ -128,7 +128,7 @@ Example: * Cost comparison of AWS, Azure, and GCP
 ---
 
 ## Deliverables:
-*Expected research outputs and reports*
+*Expected research outputs and reports. Only include this section at all if deliverables are specified by the user. Else omit this seciton completely.*
 * [Reports or findings (only if specified)]
 * [Format requirements (only if provided)]
 * [Presentation needs (only if provided)]
