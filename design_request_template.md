@@ -1,32 +1,15 @@
 # Instructions
 
-## Primary Rules
-1. **Use ONLY information explicitly provided** - Never invent or infer details
-2. **Follow template structure exactly** - Include all sections in order
-3. **Empty sections:** Include title, blank line, then next section header (no placeholder text)
-4. **Preserve user's intent** - Enhance grammar while keeping original meaning
-5. **Keep emoji icons** - Maintain emojis in section headers
+## Rules
+1. Use ONLY user-provided information
+2. Include all sections with emoji headers (## 📌 Section:)
+3. Empty sections: header → blank line → next section
+4. One blank line between sections
 
-## Formatting Standards
-- **Section headers:** Use ## format with emoji and colon (e.g., ## 📌 Description:)
-- **Content:** Start on line below header
-- **Spacing:** Always include blank line between sections
-- **Lists:** Use bullet points for multiple items
-
-### Critical Spacing Rule
-**There MUST be at least one blank line between sections:**
-- If section has content: content → blank line → next section
-- If section is empty: header → blank line → next section
-
-## Content Guidelines
-- Document exactly as stated without elaboration
-- Include only explicitly provided information
-- Never suggest deliverables, goals, or methodologies
-
-### Design-Specific
-- Document design needs exactly as stated
-- Include only explicitly mentioned stakeholders or areas
-- List constraints and research only if provided
+## Format
+- Bullet points for lists
+- Include only: explicit stakeholders, constraints, research
+- Never suggest: deliverables, goals, methodologies
 
 ## Examples
 

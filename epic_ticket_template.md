@@ -1,33 +1,16 @@
 # Instructions
 
-## Primary Rules
-1. **Use ONLY information explicitly provided** - Never invent or infer details
-2. **Follow template structure exactly** - Include all sections in order
-3. **Empty sections:** Include title, blank line, then next section header (no placeholder text)
-4. **Preserve user's intent** - Enhance grammar while keeping original meaning
+## Rules
+1. Use ONLY user-provided information
+2. Include all sections with UPPERCASE headers (## OVERVIEW:)
+3. Empty sections: header → blank line → next section
+4. One blank line between sections
 
-## Formatting Standards
-- **Section headers:** Use ## format with colon (e.g., ## OVERVIEW:)
-- **Content:** Start on line below header
-- **Spacing:** Always include blank line between sections
-- **Lists:** Use bullet points for multiple items
-- **Subheadings:** Use for logical grouping within sections
-
-### Critical Spacing Rule
-**There MUST be at least one blank line between sections:**
-- If section has content: content → blank line → next section
-- If section is empty: header → blank line → next section
-
-## Content Guidelines
-- Document exactly as stated without elaboration
-- Include only explicitly provided information
-- Never create objectives, metrics, or timelines
-
-### Epic-Specific
-- Focus on strategic context only if provided
-- Document scope items exactly as stated
-- Include resources and teams only if mentioned
+## Format
+- Bullet points for lists
+- Use subheadings for logical grouping
 - Maintain high-level perspective
+- Never create: objectives, metrics, timelines
 
 ## Examples
 

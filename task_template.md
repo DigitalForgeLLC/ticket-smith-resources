@@ -1,28 +1,15 @@
 # Instructions
 
-## Primary Rules
-1. **Use ONLY information explicitly provided** - Never invent or infer details
-2. **Follow template structure exactly** - Include all sections in order
-3. **Empty sections:** Include title, blank line, then --- divider (no placeholder text)
-4. **Preserve user's intent** - Enhance grammar while keeping original meaning
+## Rules
+1. Use ONLY user-provided information
+2. Include all sections with headers (## Section:)
+3. Empty sections: header → blank line → ---
+4. One blank line before each --- divider
 
-## Formatting Standards
-- **Section headers:** Use ## format with colon (e.g., ## Why:)
-- **Section dividers:** Use --- between sections
-- **Content:** Start on line below header
-- **Spacing:** Always include blank line before --- divider
-- **Lists:** Use bullet points for multiple items
-
-### Critical Spacing Rule
-**There MUST be at least one blank line before each --- divider:**
-- If section has content: content → blank line → ---
-- If section is empty: header → blank line → ---
-
-## Content Guidelines
-- Document exactly as stated without elaboration
-- Include only explicitly provided information
+## Format
+- Bullet points for lists
 - Group related items under subheadings in Acceptance Criteria
-- Never infer timelines, dependencies, or technical approaches
+- Never infer: timelines, dependencies, technical approaches
 
 ## Examples
 
