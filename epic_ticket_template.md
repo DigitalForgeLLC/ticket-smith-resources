@@ -1,105 +1,35 @@
 # Instructions
 
-## Quick Reference Checklist
-- [ ] All required sections included in order
-- [ ] Only user-provided information used
-- [ ] Empty sections have title only (no placeholder text)
-- [ ] Formatting consistent throughout
-- [ ] No assumptions or inferences made
-
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
 2. **Follow template structure exactly** - Include all sections in order
-3. **Handle missing information** - For empty sections, include the section title, then at least one completely blank line, then the next section header
+3. **Empty sections:** Include title, blank line, then next section header (no placeholder text)
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
-5. **Section spacing** - ALWAYS have at least one blank line between the end of any section and the start of the next section header
 
 ## Formatting Standards
-- **Section headers:** Use header 2 format (##) with colon (e.g., ## SECTION NAME:)
-- **Content placement:** ALWAYS start content on the line immediately below the header - never on the same line as the header
-- **Section spacing:** ALWAYS include at least one completely blank line between sections (after content/empty section and before next header)
-- **Empty sections:** Show header, then a blank line, then the next section header (no placeholder text)
+- **Section headers:** Use ## format with colon (e.g., ## OVERVIEW:)
+- **Content:** Start on line below header
+- **Spacing:** Always include blank line between sections
 - **Lists:** Use bullet points for multiple items
-- **Consistency:** Maintain uniform formatting throughout
+- **Subheadings:** Use for logical grouping within sections
 
 ### Critical Spacing Rule
-**There MUST be at least one completely blank line between sections.** This means:
-- If a section has content: last line of content → blank line → next section header
-- If a section is empty: section header → blank line → next section header
-- The blank line must be completely empty (no spaces or characters)
-- Content MUST start on the line below the header, never on the same line
-- This prevents sections from appearing jumbled together
+**There MUST be at least one blank line between sections:**
+- If section has content: content → blank line → next section
+- If section is empty: header → blank line → next section
 
-### Formatting Examples
-**Good Example:**
-```
-## OVERVIEW:
-Implement comprehensive customer portal allowing self-service account management
-
-Business Objectives:
-* Reduce support ticket volume by 40%
-* Improve customer satisfaction scores
-
-Scope:
-* Account profile management
-* Billing and payment processing
-* Support ticket creation and tracking
-```
-
-**Poor Example:**
-```
-OVERVIEW - customer portal, self-service
-Scope: everything customer-facing
-```
-
-## Content Guidelines
-
-### What TO Do
-- **Be conservative:** When in doubt, leave a section with just the title and a blank line
-- **Quotes:** Quote user's exact words when they provide specific metrics or goals
-- **Stay factual:** Only include explicitly stated information
-- **Group logically:** Organize related items under clear subheadings
-- **Prioritize clarity:** Use clear, strategic language appropriate for epics
-- **Handle partial information:** Include what's given and leave other sections empty
-
-### Common Scenarios
-- **Vague objectives:** Document exactly as stated without elaboration
-- **Missing timelines:** Don't infer or suggest timeframes
-- **Resource mentions:** Include only specific resources named by user
-
-## Epic Specific Guidelines
-
-### Strategic Documentation
+## Epic-Specific Guidelines
 - Focus on strategic context only if provided
-- Document scope boundaries as stated
-- Include resources and links exactly as given
+- Never create objectives, metrics, or timelines
+- Document scope items exactly as stated
+- Include resources and teams only if mentioned
 - Maintain high-level perspective
 
-### Scope Definition
-- **In Scope (ALLOWED):** Items explicitly listed by user
-- **Out of Scope (ALLOWED):** Exclusions explicitly stated by user
-- **Scope Inference (NOT ALLOWED):** Adding items based on typical epic contents
+## Examples
 
-### Handling Business Value
-- **User says:** "This will transform our customer experience"
-  - **Document as:** User states: "This will transform our customer experience"
-  - **Don't interpret as:** Specific KPIs or metrics
-
-## Prohibited Actions
-- Creating strategic objectives or business value
-- Inferring scope, timelines, or milestones
-- Adding dependencies or relationships
-- Assuming success metrics or KPIs
-- Including commentary about the request
-- Adding sections not in the template
-- Including ticket titles in output
-- Suggesting implementation phases or roadmaps
-
-## Examples of Proper Handling
-
-### Example 1: Complete Epic Information
+### Example 1: Complete Epic
 **User Input:** "Create a new mobile app for customers to track orders, view history, and contact support. Should reduce call volume."
-**Correct Output:**
+**Output:**
 ```
 ## OVERVIEW:
 Create a new mobile app for customers
@@ -111,29 +41,19 @@ Features:
 
 Expected Outcome:
 * Should reduce call volume
+
+## RESOURCES:
 ```
 
 ### Example 2: Partial Information
 **User Input:** "We need to modernize our infrastructure"
-**Correct Output:**
+**Output:**
 ```
 ## OVERVIEW:
 Modernize infrastructure
 
 ## RESOURCES:
 ```
-**Key Point:** Notice there is a blank line between each section, even when sections are empty.
-
-### Example 3: Resources Mentioned
-**User Input:** "Reference the architecture docs and involve the platform team"
-**Correct Output:**
-```
-## RESOURCES:
-* Architecture docs
-* Platform team involvement
-```
-
-**Remember:** The goal is accurate documentation of epic requirements without assumptions or additions.
 
 ---
 

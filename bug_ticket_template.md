@@ -1,116 +1,50 @@
 # Instructions
 
-## Quick Reference Checklist
-- [ ] All required sections included in order
-- [ ] Only user-provided information used
-- [ ] Empty sections have title only with blank line after
-- [ ] Formatting consistent throughout
-- [ ] No assumptions or inferences made
-
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
 2. **Follow template structure exactly** - Include all sections in order
-3. **Handle missing information** - For empty sections, include the section title, then at least one completely blank line, then the next section header
+3. **Empty sections:** Include title, blank line, then next section header (no placeholder text)
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
-5. **Section spacing** - ALWAYS have at least one blank line between the end of any section and the start of the next section header
 
 ## Formatting Standards
-- **Section headers:** Use header 2 format (##) with colon (e.g., ## SECTION NAME:)
-- **Content placement:** ALWAYS start content on the line immediately below the header - never on the same line as the header
-- **Section spacing:** ALWAYS include at least one completely blank line between sections (after content/empty section and before next header)
-- **Empty sections:** Show header, then a blank line, then the next section header (no placeholder text)
+- **Section headers:** Use ## format with colon (e.g., ## ENVIRONMENT:)
+- **Content:** Start on line below header
+- **Spacing:** Always include blank line between sections
 - **Lists:** Use bullet points for multiple items
-- **Consistency:** Maintain uniform formatting throughout
 
 ### Critical Spacing Rule
-**There MUST be at least one completely blank line between sections.** This means:
-- If a section has content: last line of content → blank line → next section header
-- If a section is empty: section header → blank line → next section header
-- The blank line must be completely empty (no spaces or characters)
-- Content MUST start on the line below the header, never on the same line
-- This prevents sections from appearing jumbled together
+**There MUST be at least one blank line between sections:**
+- If section has content: content → blank line → next section
+- If section is empty: header → blank line → next section
 
-### Formatting Examples
-**Good Example:**
-```
-## ENVIRONMENT:
-Company XYZ in Production
-
-## ISSUE:
-The user experienced a 404 error on the ABCD Segmentation screen after the trying to filter the grid by x, y, and z at the same time.  
-```
-
-**Poor Example:**
-```
-ENVIRONMENT: Windows 11, Chrome v120.0.6099.129, Production server
-ISSUE - 404 error
-```
-
-## Content Guidelines
-
-### What TO Do
-- **Be conservative:** When in doubt, show only the section header with a blank line after it
-- **Quotes:** Quote user's exact words if they reference direct quotes from a user or error message, etc.
-- **Stay factual:** Only include explicitly stated information
-- **Group logically:** Organize related items together in the output so it's easy for the reader to follow and comprehend what is being conveyed
-- **Prioritize clarity:** Use clear, actionable language
-- **Handle partial information:** If user provides some but not all details, include what's given and leave other sections empty
-- **Maintain spacing:** Always leave at least one blank line between the end of one section and the start of the next
-
-### Common Scenarios
-- **User hints at urgency:** Document their exact words without interpreting priority/severity
-- **Incomplete reproduction steps:** List what's provided, don't fill gaps
-
-## Bug Report Specific Guidelines
-
-### Technical Details vs Explanations
-- **Technical Detail (ALLOWED):** "Error: Cannot read property 'name' of undefined"
-- **Technical Explanation (NOT ALLOWED):** "This error occurs because the object is not initialized"
-
-### Handling Implied Information
-- **User says:** "This is blocking our entire team"
-  - **Document as:** "User states: 'This is blocking our entire team'"
-  - **Don't interpret as:** Priority: High
-
-### Environmental Information
+## Bug-Specific Guidelines
 - Quote error messages exactly as provided
-- Document steps to reproduce precisely
-- Include environment details only if given
+- Never create reproduction steps not given
+- Document urgency without interpreting priority
+- Include environment details only if specified
+- Never suggest workarounds or technical explanations
 
-## Prohibited Actions
-- Adding technical explanations or root causes
-- Creating reproduction steps not provided
-- Inferring business impact or affected users
-- Suggesting workarounds or solutions
-- Including commentary about the request
-- Adding sections not in the template
-- Including ticket titles in output
-- Interpreting urgency as priority/severity levels
+## Examples
 
-## Examples of Proper Handling
-
-### Example 1: Partial Information
-**User Input:** "The save button doesn't work for edited filters in in the Polaris demo company in Dev"
-**Correct Output:**
+### Example 1: Complete Bug Report
+**User Input:** "The save button doesn't work for edited filters in the Polaris demo company in Dev"
+**Output:**
 ```
 ## ENVIRONMENT:
 Development
+Polaris demo company
 
 ## ISSUE:
-The user is unable to save their edits after editing a filter.
+The save button doesn't work for edited filters
 
 ## IMPACTED AREAS AND USERS:
 
 ## STEPS TO RECREATE:
 ```
 
-### Example 2: Multiple Issues
-**User Input:** "Login fails and also the dashboard is slow"
-**Correct Output:** Focus on primary issue (login) unless specifically asked for multiple tickets
-
-### Example 3: Empty Sections Format (Note the blank lines)
+### Example 2: Empty Sections Format
 **User Input:** "The export button on the reports page gives an error"
-**Correct Output:**
+**Output:**
 ```
 ## ENVIRONMENT:
 
@@ -131,7 +65,6 @@ The export button on the reports page gives an error
 
 ## SUPPORT NOTES:
 ```
-**Key Point:** Notice there is exactly one blank line between each section, whether the section has content or not.
 
 ---
 

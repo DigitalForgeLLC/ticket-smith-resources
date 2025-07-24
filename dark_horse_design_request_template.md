@@ -1,101 +1,34 @@
 # Instructions
 
-## Quick Reference Checklist
-- [ ] All required sections included in order
-- [ ] Only user-provided information used
-- [ ] Empty sections have title only (no placeholder text)
-- [ ] Formatting consistent throughout
-- [ ] No assumptions or inferences made
-
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
 2. **Follow template structure exactly** - Include all sections in order
-3. **Handle missing information** - For empty sections, include the section title, then at least one completely blank line, then the next section header
+3. **Empty sections:** Include title, blank line, then next section header (no placeholder text)
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
-5. **Section spacing** - ALWAYS have at least one blank line between the end of any section and the start of the next section header
+5. **Keep emoji icons** - Maintain emojis in section headers
 
 ## Formatting Standards
-- **Section headers:** Use header 2 format (##) with colon (e.g., ## SECTION NAME:)
-- **Content placement:** ALWAYS start content on the line immediately below the header - never on the same line as the header
-- **Section spacing:** ALWAYS include at least one completely blank line between sections (after content/empty section and before next header)
-- **Empty sections:** Show header, then a blank line, then the next section header (no placeholder text)
+- **Section headers:** Use ## format with emoji and colon (e.g., ## 📌 Description:)
+- **Content:** Start on line below header
+- **Spacing:** Always include blank line between sections
 - **Lists:** Use bullet points for multiple items
-- **Consistency:** Maintain uniform formatting throughout
-- **Emojis:** Keep the emoji icons in section headers as shown
 
 ### Critical Spacing Rule
-**There MUST be at least one completely blank line between sections.** This means:
-- If a section has content: last line of content → blank line → next section header
-- If a section is empty: section header → blank line → next section header
-- The blank line must be completely empty (no spaces or characters)
-- Content MUST start on the line below the header, never on the same line
-- This prevents sections from appearing jumbled together
+**There MUST be at least one blank line between sections:**
+- If section has content: content → blank line → next section
+- If section is empty: header → blank line → next section
 
-### Formatting Examples
-**Good Example:**
-```
-## 📌 Description:
-* Redesign the customer dashboard to improve usability
-* Users report difficulty finding key metrics
-
-## 🎯 Goals & Objectives:
-* Reduce time to find information by 50%
-* Increase daily active users by 20%
-```
-
-**Poor Example:**
-```
-Description - need dashboard redesign
-Goals: better usability
-```
-
-## Content Guidelines
-
-### What TO Do
-- **Be conservative:** When in doubt, leave a section with just the title and a blank line
-- **Quotes:** Quote user's exact words when they provide specific requirements
-- **Stay factual:** Only include explicitly stated information
-- **Group logically:** Organize related items together for clarity
-- **Prioritize clarity:** Use clear, design-focused language
-- **Handle partial information:** Include what's given and leave other sections empty
-
-### Common Scenarios
-- **Vague design requests:** Document exactly as stated without elaboration
-- **Missing deliverables:** Leave blank rather than suggesting typical outputs
-- **Timeline mentions:** Include only if explicitly stated
-
-## Design Request Specific Guidelines
-
-### Design Documentation
+## Design-Specific Guidelines
 - Document design needs exactly as stated
-- List deliverables only if specified
-- Include research/references as provided
-- Note constraints mentioned by user
+- Never suggest deliverables, goals, or methodologies
+- Include only explicitly mentioned stakeholders or areas
+- List constraints and research only if provided
 
-### Deliverables vs Suggestions
-- **Deliverable (ALLOWED):** "Need mockups for mobile and desktop"
-- **Suggestion (NOT ALLOWED):** "Typical deliverables include wireframes and prototypes"
+## Examples
 
-### Handling Design Goals
-- **User says:** "Make it more modern and user-friendly"
-  - **Document as:** "Make it more modern and user-friendly"
-  - **Don't interpret as:** Specific design principles or metrics
-
-## Prohibited Actions
-- Suggesting deliverables or outputs
-- Adding goals, objectives, or KPIs
-- Creating stakeholders or affected areas
-- Inferring timelines or budgets
-- Including commentary about the request
-- Adding sections not in the template
-- Including ticket titles in output
-- Recommending design approaches or methodologies
-
-## Examples of Proper Handling
-
-### Example 1: Complete Design Request
+### Example 1: Complete Request
 **User Input:** "Redesign checkout flow to reduce cart abandonment. Need mobile and desktop versions. Research shows users confused by shipping options."
-**Correct Output:**
+**Output:**
 ```
 ## 📌 Description:
 * Redesign checkout flow to reduce cart abandonment
@@ -110,7 +43,7 @@ Goals: better usability
 
 ### Example 2: Partial Information
 **User Input:** "Update the color scheme to match new branding"
-**Correct Output:**
+**Output:**
 ```
 ## 📌 Description:
 * Update the color scheme to match new branding
@@ -125,22 +58,6 @@ Goals: better usability
 
 ## 💬 Other Comments / Notes:
 ```
-**Key Point:** Notice there is a blank line between each section, even when sections are empty.
-
-### Example 3: Multiple Stakeholders
-**User Input:** "Marketing wants new landing pages, sales needs lead forms integrated"
-**Correct Output:**
-```
-## 📌 Description:
-* New landing pages requested by marketing
-* Lead forms integration needed by sales
-
-## 🗺️ Affected Areas:
-* Marketing
-* Sales
-```
-
-**Remember:** The goal is accurate documentation of design requests without assumptions or additions.
 
 ---
 

@@ -41,85 +41,40 @@ For more information on [feature name], please visit our [support page](https://
 
 ---
 
-## Usage Instructions for Claude
+## Usage Instructions
 
-When creating release notes using this template:
-
-### DeskPro Compatibility:
-- **Optimized formatting** for clean pasting into DeskPro support system
-- **Date as paragraph text** - no heading formatting on the date line
-- **Heading 3 format** for all section titles (###)
-- **Standard markdown** for bullets, links, and text formatting
+### Key Requirements:
+1. **Date format**: Month DDth, YYYY as paragraph text (not heading)
+2. **Section headers**: Use ### (H3) for all sections
+3. **Bullet starters**: Must begin with **Added**, **Updated**, or **Fixed** (bolded)
+4. **Bullet order**: Added → Updated → Fixed
+5. **Group related items**: Keep related changes together with blank lines between groups
 
 ### Content Guidelines:
-1. **Start with the date and standard opening line** ("The latest version of Profit Max is pending release.")
-2. **Prioritize user-facing changes** over technical implementation details
-3. **Focus on business value** - how changes help with profitability analysis
-4. **Use Profit Max terminology** consistently (modules: Sales, Margin, Customers, Items, MVA)
-5. **Reference specific screens/widgets** where changes occur
-6. **Explain the "why"** behind changes when relevant
-7. **CRITICAL: Every bullet point must begin with Updated, Added, or Fixed (bolded)**
-8. **Organize bullets logically**: Added first, then Updated, then Fixed
-9. **Group related items**: Within each section, group bullets that relate to the same feature/screen
-10. **Use blank lines** to visually separate different logical groups of changes
+- Start with standard opening: "The latest version of Profit Max is pending release."
+- Focus on business value and user impact
+- Use Profit Max terminology (Sales, Margin, Customers, Items, MVA)
+- Reference specific screens/widgets
+- Explain the "why" when relevant
 
 ### Writing Style:
-- **Clear, direct language** - avoid overly technical jargon
-- **Business-focused** - emphasize impact on profit optimization and decision-making
-- **Specific examples** when helpful for understanding
-- **Consistent formatting** with existing release notes
-- **Professional but accessible tone**
+- Clear, business-focused language
+- Professional but accessible tone
+- Specific examples when helpful
+- Avoid technical jargon
 
-### Structure Priorities:
-1. **Major Features** (new modules, significant capabilities)
-2. **Feature Enhancements** (improvements to existing functionality)
-3. **Additional Changes** organized in logical order:
-   - **Added** items first (new features, columns, capabilities)
-   - **Updated** items second (improvements, enhancements, changes)
-   - **Fixed** items third (bug fixes, issue resolutions)
-4. **Group related items** within each category by feature/screen/module
-5. **UI/UX Updates** (better user experience, new visualizations)
-6. **Technical Updates** (backend improvements, data accuracy)
+### Structure:
+1. Major Features (new modules, significant capabilities)
+2. Feature Enhancements (improvements to existing functionality)
+3. Additional Changes (Added → Updated → Fixed)
 
-### Key Phrases to Use:
-- "The latest version of Profit Max is pending release." (standard opening line)
-- "New Major Feature: [Name]"
-- "Additional Changes In This Release"
-- **Required bullet starters (always bolded):**
-  - "**Updated** [component] to..."
-  - "**Added** [functionality] to [module]..."
-  - "**Fixed** an issue where..."
+### Technical Notes:
+- Mention rollout timing if gradual
+- Include prerequisites if needed
+- Note breaking changes or migrations
+- Reference integration impacts
 
-### References to Include:
-- **Specific modules**: Sales Analysis, Margin Management, Customer Intelligence, Product Performance, MVA
-- **Key calculations**: Sales $, COGS $, Margin $, Margin %
-- **User types**: Business owners, sales managers, financial analysts
-- **Data sources**: Posted invoices, ERP integrations
-- **Core capabilities**: Filtering, exports, notifications, drill-through functionality
-
-### Formatting Requirements:
-- **Date header**: Month DDth, YYYY format in **paragraph text** (not heading format)
-- **Section headers**: Use Heading 3 format (### in markdown) for all major sections
-- **Optimized for DeskPro**: Formatting designed to paste cleanly into support ticketing system
-- **Bullet points** for lists and feature details
-- **REQUIRED: All bullet points must start with one of these bolded action words:**
-  - **Updated** - for improvements, enhancements, changes to existing functionality
-  - **Added** - for new features, columns, capabilities, or functionality
-  - **Fixed** - for bug fixes, issue resolutions, or error corrections
-- **Markdown links** for documentation: [text](url)
-- **Indented sub-bullets** for related items under main features
-- **Consistent capitalization** of Profit Max features and modules
-
-### Technical Considerations:
-- **Mention rollout timing** if features are being gradually released
-- **Include prerequisites** (e.g., Exporter updates, browser requirements)
-- **Note any breaking changes** or migration requirements
-- **Reference integration impacts** (SalesPad, Business Central, etc.)
-
-### Call-to-Action Elements:
-- **Contact Cavallo** for setup or configuration of new features
-- **Links to support documentation** for complex features
-- **Instructions for accessing** new functionality
-- **Refresh instructions** if browser cache clearing is needed
-
-The goal is to create release notes that clearly communicate value to business users while providing enough technical detail for implementation.
+### References:
+- **Modules**: Sales Analysis, Margin Management, Customer Intelligence, Product Performance, MVA
+- **Calculations**: Sales $, COGS $, Margin $, Margin %
+- **Capabilities**: Filtering, exports, notifications, drill-through
