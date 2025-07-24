@@ -18,9 +18,13 @@
 - If section has content: content → blank line → next section
 - If section is empty: header → blank line → next section
 
-## Design-Specific Guidelines
-- Document design needs exactly as stated
+## Content Guidelines
+- Document exactly as stated without elaboration
+- Include only explicitly provided information
 - Never suggest deliverables, goals, or methodologies
+
+### Design-Specific
+- Document design needs exactly as stated
 - Include only explicitly mentioned stakeholders or areas
 - List constraints and research only if provided
 

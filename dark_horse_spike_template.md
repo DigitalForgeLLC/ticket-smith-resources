@@ -2,7 +2,7 @@
 
 ## Primary Rules
 1. **Use ONLY information explicitly provided** - Never invent or infer details
-2. **Follow template structure exactly** - Include required sections only
+2. **Follow template structure exactly** - Include all sections in order
 3. **Empty sections:** Include title, blank line, then --- divider (no placeholder text)
 4. **Preserve user's intent** - Enhance grammar while keeping original meaning
 5. **Deliverables section:** Only include if explicitly mentioned by user
@@ -19,10 +19,14 @@
 - If section has content: content → blank line → ---
 - If section is empty: header → blank line → ---
 
-## Spike-Specific Guidelines
+## Content Guidelines
+- Document exactly as stated without elaboration
+- Include only explicitly provided information
+- Never suggest methodologies or expand scope
+
+### Spike-Specific
 - Document research questions exactly as stated
 - Focus on investigation and reporting, not implementation
-- Never suggest methodologies or expand scope
 - Include deliverables section ONLY if user specifies outputs
 
 ## Examples

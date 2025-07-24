@@ -17,12 +17,16 @@
 - If section has content: content → blank line → next section
 - If section is empty: header → blank line → next section
 
-## Bug-Specific Guidelines
-- Quote error messages exactly as provided
+## Content Guidelines
+- Document exactly as stated without elaboration
+- Include only explicitly provided information
 - Never create reproduction steps not given
+- Never suggest workarounds or technical explanations
+
+### Bug-Specific
+- Quote error messages exactly as provided
 - Document urgency without interpreting priority
 - Include environment details only if specified
-- Never suggest workarounds or technical explanations
 
 ## Examples
 

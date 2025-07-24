@@ -18,9 +18,13 @@
 - If section has content: content → blank line → next section
 - If section is empty: header → blank line → next section
 
-## Epic-Specific Guidelines
-- Focus on strategic context only if provided
+## Content Guidelines
+- Document exactly as stated without elaboration
+- Include only explicitly provided information
 - Never create objectives, metrics, or timelines
+
+### Epic-Specific
+- Focus on strategic context only if provided
 - Document scope items exactly as stated
 - Include resources and teams only if mentioned
 - Maintain high-level perspective

@@ -18,12 +18,16 @@
 - If section has content: content → blank line → ---
 - If section is empty: header → blank line → ---
 
-## User Story Guidelines
+## Content Guidelines
+- Document exactly as stated without elaboration
+- Include only explicitly provided information
+- Never create personas, criteria, or test scenarios
+
+### User Story Specific
 - **Story format:** "As a [user], I want [feature], so that [benefit]"
 - **Partial stories:** Include only parts provided
 - **Alternative formats:** Preserve user's format if different
 - **Acceptance criteria:** Group related items under subheadings
-- Never create personas, criteria, or test scenarios
 
 ## Examples
 
