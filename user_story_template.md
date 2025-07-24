@@ -8,7 +8,7 @@
 
 ## Format
 - Bullet points for lists
-- Story format: "As a [user], I want [feature], so that [benefit]"
+- Story format: Start with "As a user" - "As a user, I want [feature], so that [benefit]"
 - Partial stories: Include only parts provided
 - Group related criteria under subheadings
 - Never create: personas, criteria, test scenarios
@@ -16,11 +16,11 @@
 ## Examples
 
 ### Example 1: Complete Story
-**User Input:** "As an admin, I need to bulk upload users via CSV so I can onboard new employees faster"
+**User Input:** "I need to bulk upload users via CSV so I can onboard new employees faster"
 **Output:**
 ```
 ## Story:
-As an admin
+As a user
 I need to bulk upload users via CSV
 So I can onboard new employees faster
 ```
@@ -51,13 +51,13 @@ Users should be able to filter search results
 # Template
 
 ## Story:
-*User story following "As a... I want... So that..." format when provided*
+*User story should start with "As a user" and follow the "As a... I want... So that..." format when provided*
 * [User story in standard format (only if provided)]
 * [If incomplete, use only parts given]
 * [Alternative format if user provides differently]
 ```
-Format: Standard three-part structure or as provided
-Example: As a store manager
+Format: Standard three-part structure starting with "As a user" or as provided
+Example: As a user
          I want to view daily sales reports
          So that I can track performance against targets
 ```
